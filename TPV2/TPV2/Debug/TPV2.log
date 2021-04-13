@@ -1,13 +1,14 @@
-﻿  somplejson_demo.cpp
-  JSON.cpp
-  JSONValue.cpp
-  main.cpp
-  sdlutils_demo.cpp
-  SDLUtils.cpp
-  SoundEffect.cpp
-  Texture.cpp
-  Collisions.cpp
-  Vector2D.cpp
+﻿  Entity.cpp
+  Manager.cpp
+  BallSystem.cpp
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\game\BallSystem.cpp(44,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\game\BallSystem.cpp(43,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\game\BallSystem.cpp(54,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\game\BallSystem.cpp(54,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CollisionSystem.cpp
+  Game.cpp
+  GameManagerSystem.cpp
+  PaddlesSystem.cpp
+  RenderSystem.cpp
   Generating Code...
-     Creating library C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.lib and object C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exp
   TPV2.vcxproj -> C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exe
