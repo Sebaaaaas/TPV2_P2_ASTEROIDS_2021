@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <memory>
-#include <vector>
+
 
 
 
@@ -14,8 +14,6 @@ void start() {
 	g.init();
 	g.start();
 }
-
-
 
 
 int main(int, char**) {

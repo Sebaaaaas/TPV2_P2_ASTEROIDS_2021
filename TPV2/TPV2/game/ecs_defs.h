@@ -3,40 +3,59 @@
 #pragma once
 
 // components -- forward declaration, i.e., assume they are defined somewhere
-struct Transform;
-struct Image;
-struct PaddleCtrlKeys;
+class Transform;
+class Rectangle;
+class KeyBoardCtrl;
+class Bounce;
+class Image;
+class Rotate;
+class deAcceleration;
+class Health;
+class FighterCtrl;
+class GameCtrl;
+class Gun;
+class ShowAtOppositeSide;
+class FramedImage;
+class DisableOnExit;
+class State;
+class CollisionManager;
+class Follow;
+class Generations;
+class AsteroidsManager;
 
 #define _CMPS_LIST_  \
 	Transform,\
+	Rectangle,\
+	KeyBoardCtrl,\
+	Bounce,\
 	Image,\
-	PaddleCtrlKeys
+	Rotate,\
+	deAcceleration,\
+	Health,\
+	FighterCtrl,\
+	GameCtrl,\
+	Gun,\
+	ShowAtOppositeSide,\
+	FramedImage,\
+	DisableOnExit,\
+	State, \
+	CollisionManager, \
+	Follow, \
+	Generations, \
+	AsteroidsManager
 
 // groups
-struct Paddle;
-#define _GRPS_LIST_ Paddle
+
+struct Vidas;
+struct Balas;
+struct Asteroids;
+
+#define _GRPS_LIST_  Vidas,\
+	Balas,\
+	Asteroids
 
 // handlers
-struct Ball;
-struct LeftPaddle;
-struct RightPaddle;
-#define _HDLRS_LIST_ \
-	Ball, \
-	LeftPaddle, \
-	RightPaddle
+struct Nave;
+#define _HDLRS_LIST_ Nave
 
-// systems
-class BallSystem;
-class PaddlesSystem;
-class RenderSystem;
-class CollisionSystem;
-class GameManagerSystem;
-#define _SYS_LIST_ \
-		BallSystem, \
-		PaddlesSystem, \
-		RenderSystem, \
-		CollisionSystem, \
-		GameManagerSystem
 
-// message
-#include "messages.h"

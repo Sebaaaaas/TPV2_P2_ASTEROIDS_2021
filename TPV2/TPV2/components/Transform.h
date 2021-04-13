@@ -5,7 +5,7 @@
 #include "../ecs/Component.h"
 #include "../utils/Vector2D.h"
 
-struct Transform: Component {
+class Transform: public Component {
 public:
 	Transform() :
 			pos_(), vel_(), width_(), height_(), rotation_() {
@@ -17,9 +17,54 @@ public:
 			vel_(vel), //
 			width_(width), //
 			height_(height), //
-			rotation_(rotation) {
+			rotation_(rotation)
+	{
 	}
 
+	virtual ~Transform() {
+	}
+
+	Vector2D& getPos() {
+		return pos_;
+	}
+
+	Vector2D& getVel() {
+		return vel_;
+	}
+
+	void setVel(Vector2D vel) {
+		vel_ = vel;
+	}
+
+	float getH() const {
+		return height_;
+	}
+
+	void setH(float height) {
+		height_ = height;
+	}
+
+	float getW() const {
+		return width_;
+	}
+
+	void setW(float width) {
+		width_ = width;
+	}
+
+	float getRot() const {
+		return rotation_;
+	}
+
+	void setRot(float rot) {
+		rotation_ = rot;
+	}
+
+	void update() override {
+		pos_ = pos_ + vel_;
+	}
+
+private:
 	Vector2D pos_;
 	Vector2D vel_;
 	float width_;

@@ -2,8 +2,25 @@
 
 #include "Game.h"
 
-#include "../components/Image.h"
+#include "../components/Bounce.h"
+#include "../components/KeyBoardCtrl.h"
+#include "../components/Rectangle.h"
 #include "../components/Transform.h"
+#include "../components/Image.h"
+#include "../components/Rotate.h"
+//#include "../components/deAcceleration.h"
+#include "../components/Health.h"
+//#include "../components/FighterCtrl.h"
+#include "../components/GameCtrl.h"
+//#include "../components/Gun.h"
+#include "../components/ShowAtOppositeSide.h"
+#include "../components/DisableOnExit.h"
+#include "../components/FramedImage.h"
+#include "../components/State.h"
+#include "../utils/Collisions.h"
+#include "../components/CollisionManager.h"
+#include "../components/AsteroidsManager.h"
+
 #include "../ecs/ecs.h"
 #include "../ecs/Entity.h"
 #include "../sdlutils/InputHandler.h"
@@ -11,19 +28,9 @@
 
 #include "../ecs/Manager.h"
 #include "../utils/Vector2D.h"
-#include "BallSystem.h"
-#include "CollisionSystem.h"
-#include "GameManagerSystem.h"
-#include "PaddlesSystem.h"
-#include "RenderSystem.h"
 
 Game::Game() {
 	mngr_.reset(new Manager());
-	ballSys_ = nullptr;
-	paddlesSys_ = nullptr;
-	collisionSys_ = nullptr;
-	gameMngrSys_ = nullptr;
-	renderSys_ = nullptr;
 }
 
 Game::~Game() {
@@ -31,14 +38,20 @@ Game::~Game() {
 
 void Game::init() {
 
-	SDLUtils::init("Ping Pong", 800, 600,
-			"resources/config/pingpong.resources.json");
+	SDLUtils::init("ASTEROIDS", 800, 600,
+			"resources/config/asteroids.resources.json");
 
-	ballSys_ = mngr_->addSystem<BallSystem>();
-	paddlesSys_ = mngr_->addSystem<PaddlesSystem>();
-	collisionSys_ = mngr_->addSystem<CollisionSystem>();
-	gameMngrSys_ = mngr_->addSystem<GameManagerSystem>();
-	renderSys_ = mngr_->addSystem<RenderSystem>();
+
+
+
+	auto* gm = mngr_->addEntity();
+	gm->addComponent<Health>();
+	gm->addComponent<AsteroidsManager>();
+	gm->addComponent<GameCtrl>();
+	gm->addComponent<CollisionManager>();
+	gm->addComponent<State>();
+
+
 }
 
 void Game::start() {
@@ -59,17 +72,11 @@ void Game::start() {
 			continue;
 		}
 
+		mngr_->update();
 		mngr_->refresh();
-
-		ballSys_->update();
-		paddlesSys_->update();
-		collisionSys_->update();
-		gameMngrSys_->update();
-
-		mngr_->flushMsgsQueue();
-
+		//std::cout << mngr_->getEnteties().size();//<<<<<<<<<<<<<<MIRAR POR CONSOLA LA CANTIDAD DE ENTIDADES EN ESCENA
 		sdlutils().clearRenderer();
-		renderSys_->update();
+		mngr_->render();
 		sdlutils().presentRenderer();
 
 		Uint32 frameTime = sdlutils().currRealTime() - startTime;

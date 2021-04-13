@@ -87,23 +87,22 @@ void SDLUtils::loadReasources(std::string filename) {
 	// is correct.
 
 	// load JSON configuration file
-	JSONValue *jValueRoot = JSON::ParseFromFile(filename);
-
+	JSONValue *jValue = JSON::ParseFromFile(filename);
 
 	// check it was loaded correctly
 	// the root must be a JSON object
-	if (jValueRoot == nullptr || !jValueRoot->IsObject()) {
+	if (jValue == nullptr || !jValue->IsObject()) {
 		throw "Something went wrong while load/parsing '" + filename + "'";
 	}
 
 	// we know the root is JSONObject
-	JSONObject root = jValueRoot->AsObject();
+	JSONObject root = jValue->AsObject();
 
 	// TODO improve syntax error checks below, now we do not check
 	//      validity of keys with values as sting or integer
 
 	// load fonts
-	JSONValue *jValue = root["fonts"];
+	jValue = root["fonts"];
 	if (jValue != nullptr) {
 		if (jValue->IsArray()) {
 			for (auto &v : jValue->AsArray()) {
@@ -215,9 +214,6 @@ void SDLUtils::loadReasources(std::string filename) {
 			throw "'musics' is not an array";
 		}
 	}
-
-	// free the memory used by the JSON structure
-	delete jValueRoot;
 
 }
 

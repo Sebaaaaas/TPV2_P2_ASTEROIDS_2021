@@ -19,14 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="components\AsteroidsManager.cpp" />
+    <ClCompile Include="components\CollisionsManager.cpp" />
+    <ClCompile Include="components\FramedImage.cpp" />
+    <ClCompile Include="components\GameCtrl.cpp" />
+    <ClCompile Include="components\Gun.cpp" />
     <ClCompile Include="ecs\Entity.cpp" />
     <ClCompile Include="ecs\Manager.cpp" />
-    <ClCompile Include="game\BallSystem.cpp" />
-    <ClCompile Include="game\CollisionSystem.cpp" />
     <ClCompile Include="game\Game.cpp" />
-    <ClCompile Include="game\GameManagerSystem.cpp" />
-    <ClCompile Include="game\PaddlesSystem.cpp" />
-    <ClCompile Include="game\RenderSystem.cpp" />
+    <ClCompile Include="Health.cpp" />
     <ClCompile Include="json\somplejson_demo.cpp" />
     <ClCompile Include="json\JSON.cpp" />
     <ClCompile Include="json\JSONValue.cpp" />
@@ -35,12 +36,29 @@
     <ClCompile Include="sdlutils\SDLUtils.cpp" />
     <ClCompile Include="sdlutils\SoundEffect.cpp" />
     <ClCompile Include="sdlutils\Texture.cpp" />
+    <ClCompile Include="State.cpp" />
     <ClCompile Include="utils\Collisions.cpp" />
     <ClCompile Include="utils\Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="components\AsteroidsManager.h" />
+    <ClInclude Include="components\Bounce.h" />
+    <ClInclude Include="components\CollisionManager.h" />
+    <ClInclude Include="components\deAcceleration.h" />
+    <ClInclude Include="components\DisableOnExit.h" />
+    <ClInclude Include="components\FighterCtrl.h" />
+    <ClInclude Include="components\Follow.h" />
+    <ClInclude Include="components\FramedImage.h" />
+    <ClInclude Include="components\GameCtrl.h" />
+    <ClInclude Include="components\Generations.h" />
+    <ClInclude Include="components\Gun.h" />
+    <ClInclude Include="components\Health.h" />
     <ClInclude Include="components\Image.h" />
-    <ClInclude Include="components\PaddleCtrlKeys.h" />
+    <ClInclude Include="components\KeyBoardCtrl.h" />
+    <ClInclude Include="components\Rectangle.h" />
+    <ClInclude Include="components\Rotate.h" />
+    <ClInclude Include="components\ShowAtOppositeSide.h" />
+    <ClInclude Include="components\State.h" />
     <ClInclude Include="components\Transform.h" />
     <ClInclude Include="ecs\Component.h" />
     <ClInclude Include="ecs\ecs.h" />
@@ -48,15 +66,8 @@
     <ClInclude Include="ecs\Entity.h" />
     <ClInclude Include="ecs\Manager.h" />
     <ClInclude Include="ecs\mpl.h" />
-    <ClInclude Include="ecs\System.h" />
-    <ClInclude Include="game\BallSystem.h" />
-    <ClInclude Include="game\CollisionSystem.h" />
     <ClInclude Include="game\ecs_defs.h" />
     <ClInclude Include="game\Game.h" />
-    <ClInclude Include="game\GameManagerSystem.h" />
-    <ClInclude Include="game\messages.h" />
-    <ClInclude Include="game\PaddlesSystem.h" />
-    <ClInclude Include="game\RenderSystem.h" />
     <ClInclude Include="json\simplejson_demo.h" />
     <ClInclude Include="json\JSON.h" />
     <ClInclude Include="json\JSONValue.h" />
