@@ -28,6 +28,10 @@ public:
 		return pos_;
 	}
 
+	void setPos(Vector2D pos) {
+		pos_ = pos;
+	}
+
 	Vector2D& getVel() {
 		return vel_;
 	}

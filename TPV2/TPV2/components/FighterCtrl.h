@@ -72,6 +72,13 @@ public:
 		}
 	}
 
+	//reseteae la posicion de la nave, su velocidad y su rotacion
+	void reset() { 
+		tr_->setVel(Vector2D());
+		tr_->setRot(0.0f);
+		tr_->setPos(Vector2D());
+	}
+
 private:
 	Transform* tr_;
 	float speed_;

@@ -102,13 +102,16 @@
     <ClCompile Include="components\FramedImage.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
-    <ClCompile Include="State.cpp">
-      <Filter>Source Files\components</Filter>
-    </ClCompile>
     <ClCompile Include="components\CollisionsManager.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
     <ClCompile Include="components\AsteroidsManager.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\GameCtrlSystem.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\State.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
   </ItemGroup>
@@ -240,6 +243,12 @@
       <Filter>Header Files\components</Filter>
     </ClInclude>
     <ClInclude Include="components\Generations.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\System.h">
+      <Filter>Header Files\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="components\GameCtrlSystem.h">
       <Filter>Header Files\components</Filter>
     </ClInclude>
   </ItemGroup>

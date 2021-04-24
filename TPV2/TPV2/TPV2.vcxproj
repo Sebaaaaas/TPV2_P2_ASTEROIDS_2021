@@ -23,7 +23,9 @@
     <ClCompile Include="components\CollisionsManager.cpp" />
     <ClCompile Include="components\FramedImage.cpp" />
     <ClCompile Include="components\GameCtrl.cpp" />
+    <ClCompile Include="components\GameCtrlSystem.cpp" />
     <ClCompile Include="components\Gun.cpp" />
+    <ClCompile Include="components\State.cpp" />
     <ClCompile Include="ecs\Entity.cpp" />
     <ClCompile Include="ecs\Manager.cpp" />
     <ClCompile Include="game\Game.cpp" />
@@ -36,7 +38,6 @@
     <ClCompile Include="sdlutils\SDLUtils.cpp" />
     <ClCompile Include="sdlutils\SoundEffect.cpp" />
     <ClCompile Include="sdlutils\Texture.cpp" />
-    <ClCompile Include="State.cpp" />
     <ClCompile Include="utils\Collisions.cpp" />
     <ClCompile Include="utils\Vector2D.cpp" />
   </ItemGroup>
@@ -50,6 +51,7 @@
     <ClInclude Include="components\Follow.h" />
     <ClInclude Include="components\FramedImage.h" />
     <ClInclude Include="components\GameCtrl.h" />
+    <ClInclude Include="components\GameCtrlSystem.h" />
     <ClInclude Include="components\Generations.h" />
     <ClInclude Include="components\Gun.h" />
     <ClInclude Include="components\Health.h" />
@@ -66,6 +68,7 @@
     <ClInclude Include="ecs\Entity.h" />
     <ClInclude Include="ecs\Manager.h" />
     <ClInclude Include="ecs\mpl.h" />
+    <ClInclude Include="ecs\System.h" />
     <ClInclude Include="game\ecs_defs.h" />
     <ClInclude Include="game\Game.h" />
     <ClInclude Include="json\simplejson_demo.h" />

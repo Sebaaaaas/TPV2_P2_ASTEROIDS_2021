@@ -19,7 +19,7 @@ void CollisionManager::init() {
 
 }
 
-void CollisionManager::update() {
+void CollisionManager::update() {///////////////////////////////////////////////////////QUITAR?///////////////////////////////////////////////////////
 
 	auto nave = entity_->getMngr()->getHandler<Nave>();
 	auto naTR = nave->getComponent<Transform>();
@@ -41,7 +41,7 @@ void CollisionManager::update() {
 				//cambiamos el estado del juego
 				entity_->getComponent<AsteroidsManager>()->setNumAsteroids(0);
 
-				//destruye las balas y asteroides del juego
+				//destruye las balas y asteroides del juego ///////////////////////////////////////////////////////QUITAR?///////////////////////////////////////////////////////
 				for (int j = 0; j < n; j++) {
 					if (ents[j]->hasGroup<Balas>() || ents[j]->hasGroup<Asteroids>()) {
 						ents[j]->setActive(false);						

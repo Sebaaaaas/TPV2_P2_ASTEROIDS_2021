@@ -21,6 +21,8 @@
 #include "../components/CollisionManager.h"
 #include "../components/AsteroidsManager.h"
 
+#include "../components/GameCtrlSystem.h"
+
 #include "../ecs/ecs.h"
 #include "../ecs/Entity.h"
 #include "../sdlutils/InputHandler.h"
@@ -41,15 +43,22 @@ void Game::init() {
 	SDLUtils::init("ASTEROIDS", 800, 600,
 			"resources/config/asteroids.resources.json");
 
+	Manager *gameMngr_ = new Manager();
 
+	gameCtrlSyst_ = new GameCtrlSystem();
+	gameCtrlSyst_->setMngr(gameMngr_);
+	gameCtrlSyst_->init();
 
+	/*gameCtrlSys_ = gameMngr_->a
+	gameCtrlSys_ = new GameCtrlSystem();
+	gameCtrlSys_->setMngr(gameMngr_);*/
 
-	auto* gm = mngr_->addEntity();
+	/*auto* gm = mngr_->addEntity();
 	gm->addComponent<Health>();
 	gm->addComponent<AsteroidsManager>();
 	gm->addComponent<GameCtrl>();
 	gm->addComponent<CollisionManager>();
-	gm->addComponent<State>();
+	gm->addComponent<State>();*/
 
 
 }
@@ -72,8 +81,9 @@ void Game::start() {
 			continue;
 		}
 
-		mngr_->update();
-		mngr_->refresh();
+		gameCtrlSyst_->update();
+		//mngr_->update();
+		//mngr_->refresh();
 		//std::cout << mngr_->getEnteties().size();//<<<<<<<<<<<<<<MIRAR POR CONSOLA LA CANTIDAD DE ENTIDADES EN ESCENA
 		sdlutils().clearRenderer();
 		mngr_->render();
