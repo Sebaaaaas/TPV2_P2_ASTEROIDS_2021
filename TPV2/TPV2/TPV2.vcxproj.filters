@@ -49,6 +49,12 @@
     <Filter Include="Source Files\components">
       <UniqueIdentifier>{ea73fe6b-be12-471c-8024-805c9c7b30d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\system">
+      <UniqueIdentifier>{5b43eb4a-d50e-4466-9ce6-8486bc6d3230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{8e1d7dd8-9655-49a6-92c7-877945a35234}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -90,9 +96,6 @@
     <ClCompile Include="game\Game.cpp">
       <Filter>Source Files\game</Filter>
     </ClCompile>
-    <ClCompile Include="Health.cpp">
-      <Filter>Source Files\components</Filter>
-    </ClCompile>
     <ClCompile Include="components\GameCtrl.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
@@ -108,11 +111,17 @@
     <ClCompile Include="components\AsteroidsManager.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
-    <ClCompile Include="components\GameCtrlSystem.cpp">
+    <ClCompile Include="system\FighterSystem.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\GameCtrlSystem.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="components\Health.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
-    <ClCompile Include="components\State.cpp">
-      <Filter>Source Files\components</Filter>
+    <ClCompile Include="ecs\State.cpp">
+      <Filter>Source Files\ecs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -230,9 +239,6 @@
     <ClInclude Include="components\DisableOnExit.h">
       <Filter>Header Files\components</Filter>
     </ClInclude>
-    <ClInclude Include="components\State.h">
-      <Filter>Header Files\components</Filter>
-    </ClInclude>
     <ClInclude Include="components\CollisionManager.h">
       <Filter>Header Files\components</Filter>
     </ClInclude>
@@ -248,8 +254,14 @@
     <ClInclude Include="ecs\System.h">
       <Filter>Header Files\ecs</Filter>
     </ClInclude>
-    <ClInclude Include="components\GameCtrlSystem.h">
-      <Filter>Header Files\components</Filter>
+    <ClInclude Include="system\GameCtrlSystem.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\FighterSystem.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\State.h">
+      <Filter>Header Files\ecs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

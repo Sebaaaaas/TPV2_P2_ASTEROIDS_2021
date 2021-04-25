@@ -58,4 +58,10 @@ struct Asteroids;
 struct Nave;
 #define _HDLRS_LIST_ Nave
 
+// systems
+class GamerCtrlSystem;
+class FighterSystem;
+
+#define _SYS_LIST_ GamerCtrlSystem,\
+	FighterSystem
 

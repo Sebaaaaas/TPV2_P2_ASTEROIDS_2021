@@ -1,6 +1,6 @@
 #pragma once
 #include "../ecs/Component.h"
-#include "State.h"
+#include "../ecs/State.h"
 
 class GameCtrl : public Component{
 public:

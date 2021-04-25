@@ -16,12 +16,12 @@
 #include "../components/ShowAtOppositeSide.h"
 #include "../components/DisableOnExit.h"
 #include "../components/FramedImage.h"
-#include "../components/State.h"
+#include "../ecs/State.h"
 #include "../utils/Collisions.h"
 #include "../components/CollisionManager.h"
 #include "../components/AsteroidsManager.h"
 
-#include "../components/GameCtrlSystem.h"
+#include "../system/GameCtrlSystem.h"
 
 #include "../ecs/ecs.h"
 #include "../ecs/Entity.h"
