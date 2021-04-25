@@ -39,6 +39,7 @@
     <ClCompile Include="sdlutils\Texture.cpp" />
     <ClCompile Include="system\FighterSystem.cpp" />
     <ClCompile Include="system\GameCtrlSystem.cpp" />
+    <ClCompile Include="system\RenderSystem.cpp" />
     <ClCompile Include="utils\Collisions.cpp" />
     <ClCompile Include="utils\Vector2D.cpp" />
   </ItemGroup>
@@ -86,6 +87,7 @@
     <ClInclude Include="sdlutils\VirtualTimer.h" />
     <ClInclude Include="system\FighterSystem.h" />
     <ClInclude Include="system\GameCtrlSystem.h" />
+    <ClInclude Include="system\RenderSystem.h" />
     <ClInclude Include="utils\Collisions.h" />
     <ClInclude Include="utils\Singleton.h" />
     <ClInclude Include="utils\Vector2D.h" />

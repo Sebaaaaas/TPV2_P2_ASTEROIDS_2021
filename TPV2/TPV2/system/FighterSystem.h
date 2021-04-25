@@ -18,4 +18,10 @@ public:
 	// - si el juego está parado no hacer nada.
 	// - actualizar la velocidad del caza y moverlo como en la práctica 1.
 	void update() override;
+
+	void resetNave();
+
+private:
+
+	Entity *entity_;
 };

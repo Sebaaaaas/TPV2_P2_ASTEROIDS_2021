@@ -22,6 +22,7 @@
 #include "../components/AsteroidsManager.h"
 
 #include "../system/GameCtrlSystem.h"
+#include "../system/FighterSystem.h"
 
 #include "../ecs/ecs.h"
 #include "../ecs/Entity.h"
@@ -44,10 +45,16 @@ void Game::init() {
 			"resources/config/asteroids.resources.json");
 
 	Manager *gameMngr_ = new Manager();
+	
 
 	gameCtrlSyst_ = new GameCtrlSystem();
 	gameCtrlSyst_->setMngr(gameMngr_);
 	gameCtrlSyst_->init();
+
+
+	fighterCtrlSyst_ = new FighterSystem();
+	fighterCtrlSyst_->setMngr(gameMngr_);
+	fighterCtrlSyst_->init();
 
 	/*gameCtrlSys_ = gameMngr_->a
 	gameCtrlSys_ = new GameCtrlSystem();

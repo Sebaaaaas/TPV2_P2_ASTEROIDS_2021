@@ -9,6 +9,7 @@
 // say that it exists, that saves time when parsing files
 class Manager;
 class GameCtrlSystem;
+class FighterSystem;
 
 class Game {
 public:
@@ -19,5 +20,6 @@ public:
 private:
 	std::unique_ptr<Manager> mngr_;
 	GameCtrlSystem* gameCtrlSyst_;
+	FighterSystem* fighterCtrlSyst_;
 };
 

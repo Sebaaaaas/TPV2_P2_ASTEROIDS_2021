@@ -38,10 +38,10 @@ class AsteroidsManager;
 	ShowAtOppositeSide,\
 	FramedImage,\
 	DisableOnExit,\
-	State, \
-	CollisionManager, \
-	Follow, \
-	Generations, \
+	State,\
+	CollisionManager,\
+	Follow,\
+	Generations,\
 	AsteroidsManager
 
 // groups
