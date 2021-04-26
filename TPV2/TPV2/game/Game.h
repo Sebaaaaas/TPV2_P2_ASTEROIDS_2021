@@ -10,6 +10,7 @@
 class Manager;
 class GameCtrlSystem;
 class FighterSystem;
+class RenderSystem;
 
 class Game {
 public:
@@ -21,5 +22,6 @@ private:
 	std::unique_ptr<Manager> mngr_;
 	GameCtrlSystem* gameCtrlSyst_;
 	FighterSystem* fighterCtrlSyst_;
+	RenderSystem* renderSyst_;
 };
 

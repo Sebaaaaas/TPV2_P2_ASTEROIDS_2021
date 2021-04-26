@@ -23,6 +23,7 @@
 
 #include "../system/GameCtrlSystem.h"
 #include "../system/FighterSystem.h"
+#include "../system/RenderSystem.h"
 
 #include "../ecs/ecs.h"
 #include "../ecs/Entity.h"
@@ -55,6 +56,10 @@ void Game::init() {
 	fighterCtrlSyst_ = new FighterSystem();
 	fighterCtrlSyst_->setMngr(gameMngr_);
 	fighterCtrlSyst_->init();
+
+	renderSyst_ = new RenderSystem();
+	renderSyst_->setMngr(gameMngr_);
+	renderSyst_->init();
 
 	/*gameCtrlSys_ = gameMngr_->a
 	gameCtrlSys_ = new GameCtrlSystem();
@@ -93,7 +98,8 @@ void Game::start() {
 		//mngr_->refresh();
 		//std::cout << mngr_->getEnteties().size();//<<<<<<<<<<<<<<MIRAR POR CONSOLA LA CANTIDAD DE ENTIDADES EN ESCENA
 		sdlutils().clearRenderer();
-		mngr_->render();
+		/*mngr_->render();*/
+		renderSyst_->update();
 		sdlutils().presentRenderer();
 
 		Uint32 frameTime = sdlutils().currRealTime() - startTime;

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "../ecs/System.h"
+#include "../ecs/Entity.h"
 
 class RenderSystem : public System {
 public:
@@ -12,4 +13,5 @@ public:
 	// este código en los sistemas correspondientes en lugar de tener un sólo
 	// sistema para rendering
 	void update() override;
-}
+
+};
