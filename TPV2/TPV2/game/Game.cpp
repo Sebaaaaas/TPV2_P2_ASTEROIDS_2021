@@ -94,12 +94,15 @@ void Game::start() {
 		}
 
 		gameCtrlSyst_->update();
+		/*fighterCtrlSyst_->update();*/
+		
 		//mngr_->update();
 		//mngr_->refresh();
 		//std::cout << mngr_->getEnteties().size();//<<<<<<<<<<<<<<MIRAR POR CONSOLA LA CANTIDAD DE ENTIDADES EN ESCENA
 		sdlutils().clearRenderer();
 		/*mngr_->render();*/
 		renderSyst_->update();
+		
 		sdlutils().presentRenderer();
 
 		Uint32 frameTime = sdlutils().currRealTime() - startTime;

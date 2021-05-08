@@ -1,6 +1,6 @@
 #include "GameCtrlSystem.h"
 
-void GameCtrlSystem::onFighterDeath() //////////////////////////////////////////////////////FALTA CAMBIAR ESTADO DE JUEGO//////////////////////////////////////////////////////
+void GameCtrlSystem::onFighterDeath() 
 {
 	auto entities = manager_->getEnteties();
 	
@@ -18,9 +18,11 @@ void GameCtrlSystem::onFighterDeath() //////////////////////////////////////////
 			entities[i]->getComponent<FighterCtrl>()->reset();
 		}
 	}
+
+	state_.setState(state_.GAMEOVER);
 }
 
-void GameCtrlSystem::onAsteroidsExtinction()//////////////////////////////////////////////////////FALTA CAMBIAR ESTADO DE JUEGO//////////////////////////////////////////////////////
+void GameCtrlSystem::onAsteroidsExtinction()
 {
 	auto entities = manager_->getEnteties();
 
@@ -29,6 +31,8 @@ void GameCtrlSystem::onAsteroidsExtinction()////////////////////////////////////
 			entities[i]->setActive(false);
 		}
 	}
+
+	state_.setState(state_.GAMEOVER);
 }
 
 void GameCtrlSystem::init()/////////////////////////////////////////////INICIALIZAR EL RESTO//////////////////////////////////////////////////////

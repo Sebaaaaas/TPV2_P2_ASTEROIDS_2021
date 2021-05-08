@@ -27,4 +27,5 @@ void FighterSystem::init()
 
 void FighterSystem::update()
 {
+	entity_->update();
 }
