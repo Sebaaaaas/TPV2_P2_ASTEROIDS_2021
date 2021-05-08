@@ -11,6 +11,7 @@ class Manager;
 class GameCtrlSystem;
 class FighterSystem;
 class RenderSystem;
+class BulletSystem;
 
 class Game {
 public:
@@ -23,5 +24,6 @@ private:
 	GameCtrlSystem* gameCtrlSyst_;
 	FighterSystem* fighterCtrlSyst_;
 	RenderSystem* renderSyst_;
+	BulletSystem* bulletSyst_;
 };
 

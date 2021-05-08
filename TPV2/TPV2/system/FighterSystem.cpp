@@ -1,11 +1,13 @@
 #include "GameCtrlSystem.h"
 #include "FighterSystem.h"
+#include "BulletSystem.h"
 #include "../components/deAcceleration.h"
 #include "../components/ShowAtOppositeSide.h"
 #include "../components/Gun.h"
 
 void FighterSystem::onCollisionWithAsteroid(Entity* a)
 {
+
 }
 
 void FighterSystem::init()
@@ -21,11 +23,20 @@ void FighterSystem::init()
 	caza->addComponent<FighterCtrl>();
 	//caza->addComponent<Bounce>();
 	caza->addComponent<ShowAtOppositeSide>();
-	caza->addComponent<Gun>();
+	/*caza->addComponent<Gun>();*/
 	manager_->setHandler<Nave>(caza);
+
+	entity_ = caza;
 }
 
 void FighterSystem::update()
 {
 	entity_->update();
+	if (ih().keyDownEvent()) {
+
+		if (ih().isKeyDown(SDLK_s) && sdlutils().currRealTime() > lastTimeFired + timeToFire) {
+		    BSystem->shoot(entity_->getComponent<Transform>()->getPos(), entity_->getComponent<Transform>()->getVel(), entity_->getComponent<Transform>()->getW(), entity_->getComponent<Transform>()->getH());
+		}
+	}
+	
 }

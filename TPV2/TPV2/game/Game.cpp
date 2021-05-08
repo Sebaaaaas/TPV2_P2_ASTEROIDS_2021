@@ -24,6 +24,7 @@
 #include "../system/GameCtrlSystem.h"
 #include "../system/FighterSystem.h"
 #include "../system/RenderSystem.h"
+#include "../system/BulletSystem.h"
 
 #include "../ecs/ecs.h"
 #include "../ecs/Entity.h"
@@ -56,6 +57,9 @@ void Game::init() {
 	fighterCtrlSyst_ = new FighterSystem();
 	fighterCtrlSyst_->setMngr(gameMngr_);
 	fighterCtrlSyst_->init();
+
+	bulletSyst_ = new BulletSystem();
+	bulletSyst_->setMngr(gameMngr_);
 
 	renderSyst_ = new RenderSystem();
 	renderSyst_->setMngr(gameMngr_);
@@ -94,7 +98,7 @@ void Game::start() {
 		}
 
 		gameCtrlSyst_->update();
-		/*fighterCtrlSyst_->update();*/
+		fighterCtrlSyst_->update();
 		
 		//mngr_->update();
 		//mngr_->refresh();

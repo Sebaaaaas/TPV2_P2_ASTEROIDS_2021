@@ -24,4 +24,7 @@ public:
 private:
 
 	Entity *entity_;
+	BulletSystem *BSystem;
+	float timeToFire = 250.0;
+	float lastTimeFired = 0.0;
 };

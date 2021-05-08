@@ -62,8 +62,10 @@ struct Nave;
 class GamerCtrlSystem;
 class FighterSystem;
 class RenderSystem;
+class BulletSystem;
 
 #define _SYS_LIST_ GamerCtrlSystem,\
 	FighterSystem,\
-	RenderSystem
+	RenderSystem,\
+	BulletSystem
 
