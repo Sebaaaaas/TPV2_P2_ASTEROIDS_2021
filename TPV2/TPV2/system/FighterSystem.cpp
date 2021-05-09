@@ -6,6 +6,7 @@
 #include "../components/ShowAtOppositeSide.h"
 #include "../components/Gun.h"
 
+
 void FighterSystem::onCollisionWithAsteroid(Entity* a)
 {
 
@@ -13,7 +14,6 @@ void FighterSystem::onCollisionWithAsteroid(Entity* a)
 
 void FighterSystem::init()
 {
-
 	auto* caza = manager_->addEntity();
 
 	caza->addComponent<Transform>(Vector2D(sdlutils().width() / 2.0f, sdlutils().height() / 2.0f),
@@ -43,4 +43,11 @@ void FighterSystem::update()
 		}
 	}
 	
+}
+
+void FighterSystem::resetNave()
+{
+	naveTrans = entity_->getComponent<Transform>();
+	naveTrans->setVel(Vector2D());
+	naveTrans->setPos(Vector2D(sdlutils().width() / 2.0f, sdlutils().height() / 2.0f));
 }

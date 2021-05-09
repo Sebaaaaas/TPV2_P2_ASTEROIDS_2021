@@ -54,12 +54,12 @@ void GameCtrlSystem::update()
 			switch (state_) {
 			case NEWGAME:
 				state_ = RUNNING;
-				manager_->getSystem<FighterSystem>()->init();
+				manager_->getSystem<FighterSystem>()->resetNave();
 				break;
 			case PAUSED:
 				state_ = RUNNING;
-				//manager_->getSystem<FighterSystem>()->resetNave();
-				manager_->getSystem<FighterSystem>()->init();
+				manager_->getSystem<FighterSystem>()->resetNave();
+				//manager_->getSystem<FighterSystem>()->init();
 				break;
 			case GAMEOVER:
 				state_ = NEWGAME;
@@ -69,4 +69,5 @@ void GameCtrlSystem::update()
 			}
 		}
 	}
+	else state_ = NEWGAME;
 }

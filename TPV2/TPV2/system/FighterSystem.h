@@ -25,4 +25,5 @@ private:
 	Entity *entity_;
 	float timeToFire = 250.0;
 	float lastTimeFired = 0.0;
+	Transform *naveTrans;
 };

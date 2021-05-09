@@ -37,6 +37,10 @@
 
 Game::Game() {
 	mngr_.reset(new Manager());
+	gameCtrlSyst_ = nullptr;
+	fighterCtrlSyst_ = nullptr;
+	bulletSyst_ = nullptr;
+	renderSyst_ = nullptr;
 }
 
 Game::~Game() {
@@ -47,35 +51,27 @@ void Game::init() {
 	SDLUtils::init("ASTEROIDS", 800, 600,
 			"resources/config/asteroids.resources.json");
 
-	Manager *gameMngr_ = new Manager();
+	/*Manager *gameMngr_ = new Manager();*/
+	
+	gameCtrlSyst_ = mngr_->addSystem<GameCtrlSystem>();
+
+	
+	/*gameCtrlSyst_ = new GameCtrlSystem();
+	gameCtrlSyst_ = gameMngr_->addSystem<GameCtrlSystem>();*/
 	
 
-	/*gameCtrlSyst_ = new GameCtrlSystem();
-	gameCtrlSyst_->setMngr(gameMngr_);
-	gameCtrlSyst_->init();*/
-
-	gameCtrlSyst_ = new GameCtrlSystem();
-	gameCtrlSyst_ = gameMngr_->addSystem<GameCtrlSystem>();
-	/*gameCtrlSyst_->init();*/
-
+	fighterCtrlSyst_ = mngr_->addSystem<FighterSystem>();
 	/*fighterCtrlSyst_ = new FighterSystem();
-	fighterCtrlSyst_->setMngr(gameMngr_);
-	fighterCtrlSyst_->init();*/
-	fighterCtrlSyst_ = new FighterSystem();
 	fighterCtrlSyst_ = gameMngr_->addSystem<FighterSystem>();
-	/*fighterCtrlSyst_->init();*/
+	*/
 
+	bulletSyst_ = mngr_->addSystem<BulletSystem>();
 	/*bulletSyst_ = new BulletSystem();
-	bulletSyst_->setMngr(gameMngr_);*/
-	bulletSyst_ = new BulletSystem();
-	bulletSyst_ = gameMngr_->addSystem<BulletSystem>();
+	bulletSyst_ = gameMngr_->addSystem<BulletSystem>();*/
 
+	renderSyst_ = mngr_->addSystem<RenderSystem>();
 	/*renderSyst_ = new RenderSystem();
-	renderSyst_->setMngr(gameMngr_);
-	renderSyst_->init();*/
-	renderSyst_ = new RenderSystem();
-	renderSyst_ = gameMngr_->addSystem<RenderSystem>();
-	/*renderSyst_->init();*/
+	renderSyst_ = gameMngr_->addSystem<RenderSystem>();*/
 
 
 }
@@ -97,6 +93,8 @@ void Game::start() {
 			exit = true;
 			continue;
 		}
+
+		mngr_->refresh();
 
 		gameCtrlSyst_->update();
 		fighterCtrlSyst_->update();
