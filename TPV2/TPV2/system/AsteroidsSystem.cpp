@@ -112,11 +112,11 @@ void AsteroidsSystem::update()
 				auto* e = manager_->getEnteties()[i];
 				e->update();
 
-				if (e->getComponent<Transform>()->getPos().getX() < 0 || e->getComponent<Transform>()->getPos().getX() + e->getComponent<Transform>()->getW() > sdlutils().width()
+				/*if (e->getComponent<Transform>()->getPos().getX() < 0 || e->getComponent<Transform>()->getPos().getX() + e->getComponent<Transform>()->getW() > sdlutils().width()
 					|| e->getComponent<Transform>()->getPos().getY() < 0 || e->getComponent<Transform>()->getPos().getY() + e->getComponent<Transform>()->getH() > sdlutils().height()) {
 
 					e->setActive(false);
-				}
+				}*/
 			}
 		}
 

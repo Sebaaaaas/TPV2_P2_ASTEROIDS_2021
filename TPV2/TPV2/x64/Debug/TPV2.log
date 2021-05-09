@@ -1,166 +1,79 @@
-﻿  AsteroidsManager.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(18,32): warning C4018: '>': signed/unsigned mismatch
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(36,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(37,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(40,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(40,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(41,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(74,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(74,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(74,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(77,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(82,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(82,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(82,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(85,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(91,112): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  CollisionsManager.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\CollisionsManager.cpp(28,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\CollisionsManager.cpp(54,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\CollisionsManager.cpp(54,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  FramedImage.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-  GameCtrl.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-  Gun.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\Gun.cpp(9,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-  Health.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\Health.cpp(28,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\Health.cpp(40,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(36,32): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
-          with
-          [
-              _Ty=double
-          ]
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\Health.cpp(30): message : see reference to function template instantiation 'T *Entity::addComponent<Transform,Vector2D&,Vector2D,double,double,double>(Vector2D &,Vector2D &&,double &&,double &&,double &&)' being compiled
-          with
-          [
-              T=Transform
-          ]
-  Entity.cpp
-  Manager.cpp
-  State.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\State.cpp(70,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\State.cpp(70,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Game.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-  somplejson_demo.cpp
-  JSON.cpp
-  JSONValue.cpp
-  main.cpp
-  sdlutils_demo.cpp
-  SDLUtils.cpp
-  SoundEffect.cpp
-  Texture.cpp
-  BulletSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(11,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(12,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(36,32): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
-          with
-          [
-              _Ty=double
-          ]
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(18): message : see reference to function template instantiation 'T *Entity::addComponent<Transform,Vector2D&,Vector2D&,double,double,float>(Vector2D &,Vector2D &,double &&,double &&,float &&)' being compiled
-          with
-          [
-              T=Transform
-          ]
-  FighterSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\FighterSystem.cpp(39,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-  Generating Code...
-  Compiling...
-  GameCtrlSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-  RenderSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-  Collisions.cpp
-  Vector2D.cpp
-  Generating Code...
-BulletSystem.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-FighterSystem.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-AsteroidsManager.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-GameCtrl.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-Gun.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-Health.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-SDLUtils.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-FighterSystem.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-AsteroidsManager.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-Gun.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-Game.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-FighterSystem.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-GameCtrl.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-Gun.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-State.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-Game.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-GameCtrl.obj : error LNK2019: unresolved external symbol Mix_PlayChannelTimed referenced in function "public: int __cdecl SoundEffect::play(int,int)const " (?play@SoundEffect@@QEBAHHH@Z)
-Gun.obj : error LNK2001: unresolved external symbol Mix_PlayChannelTimed
-BulletSystem.obj : error LNK2001: unresolved external symbol Mix_PlayChannelTimed
-FighterSystem.obj : error LNK2001: unresolved external symbol Mix_PlayChannelTimed
-Gun.obj : error LNK2019: unresolved external symbol SDL_GetScancodeFromKey referenced in function "public: bool __cdecl InputHandler::isKeyDown(int)" (?isKeyDown@InputHandler@@QEAA_NH@Z)
-FighterSystem.obj : error LNK2001: unresolved external symbol SDL_GetScancodeFromKey
-State.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl Texture::render(struct SDL_Rect const &,struct SDL_Rect const &)" (?render@Texture@@QEAAXAEBUSDL_Rect@@0@Z)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
-Game.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Game::start(void)" (?start@Game@@QEAAXXZ)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_PollEvent
-Game.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl SDLUtils::clearRenderer(struct SDL_Color)" (?clearRenderer@SDLUtils@@QEAAXUSDL_Color@@@Z)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
-Game.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl SDLUtils::clearRenderer(struct SDL_Color)" (?clearRenderer@SDLUtils@@QEAAXUSDL_Color@@@Z)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_RenderClear
-Game.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl SDLUtils::presentRenderer(void)" (?presentRenderer@SDLUtils@@QEAAXXZ)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
-Game.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: void __cdecl Game::start(void)" (?start@Game@@QEAAXXZ)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_Delay
-sdlutils_demo.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: virtual __cdecl Texture::~Texture(void)" (??1Texture@@UEAA@XZ)
-SDLUtils.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
-Texture.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
-sdlutils_demo.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function "public: void __cdecl Music::play(int)const " (?play@Music@@QEBAXH@Z)
-sdlutils_demo.obj : error LNK2019: unresolved external symbol Mix_HaltMusic referenced in function "public: static void __cdecl Music::haltMusic(void)" (?haltMusic@Music@@SAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "public: __cdecl SoundEffect::SoundEffect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0SoundEffect@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "private: void __cdecl SDLUtils::initWindow(void)" (?initWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "private: void __cdecl SDLUtils::closeWindow(void)" (?closeWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_ShowCursor referenced in function "public: void __cdecl SDLUtils::hideCursor(void)" (?hideCursor@SDLUtils@@QEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "private: void __cdecl SDLUtils::initWindow(void)" (?initWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "private: void __cdecl SDLUtils::closeWindow(void)" (?closeWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "private: void __cdecl SDLUtils::initWindow(void)" (?initWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "private: void __cdecl SDLUtils::closeWindow(void)" (?closeWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "public: __cdecl Font::Font(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (??0Font@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol TTF_CloseFont referenced in function "public: virtual __cdecl Font::~Font(void)" (??1Font@@UEAA@XZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol TTF_Quit referenced in function "private: void __cdecl SDLUtils::closeSDLExtensions(void)" (?closeSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_Init referenced in function "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_Quit referenced in function "private: void __cdecl SDLUtils::closeSDLExtensions(void)" (?closeSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_AllocateChannels referenced in function "public: static int __cdecl SoundEffect::setNumberofChannels(int)" (?setNumberofChannels@SoundEffect@@SAHH@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_LoadWAV_RW referenced in function "public: __cdecl SoundEffect::SoundEffect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0SoundEffect@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "public: __cdecl Music::Music(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Music@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_FreeChunk referenced in function "public: virtual __cdecl SoundEffect::~SoundEffect(void)" (??1SoundEffect@@UEAA@XZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_FreeMusic referenced in function "public: virtual __cdecl Music::~Music(void)" (??1Music@@UEAA@XZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol IMG_Init referenced in function "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol IMG_Quit referenced in function "private: void __cdecl SDLUtils::closeSDLExtensions(void)" (?closeSDLExtensions@SDLUtils@@AEAAXXZ)
-Texture.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: __cdecl Texture::Texture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Texture.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: __cdecl Texture::Texture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Texture.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: __cdecl Texture::Texture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Texture.obj : error LNK2019: unresolved external symbol TTF_RenderUTF8_Solid referenced in function "public: struct SDL_Surface * __cdecl Font::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)const " (?renderText@Font@@QEBAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@@Z)
-Texture.obj : error LNK2019: unresolved external symbol TTF_RenderUTF8_Shaded referenced in function "public: struct SDL_Surface * __cdecl Font::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color,struct SDL_Color)const " (?renderText@Font@@QEBAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@1@Z)
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2-2.0.7\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2-2.0.7\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_mixer-2.0.2\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_net-2.0.1\lib\x86\SDL2_net.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exe : fatal error LNK1120: 41 unresolved externals
+﻿  GameCtrlSystem.cpp
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncamiento de 'double' a 'float'
+AsteroidsSystem.obj : error LNK2019: símbolo externo SDL_RenderCopyEx sin resolver al que se hace referencia en la función "public: __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)" (??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ)
+BulletSystem.obj : error LNK2001: símbolo externo SDL_RenderCopyEx sin resolver
+FighterSystem.obj : error LNK2001: símbolo externo SDL_RenderCopyEx sin resolver
+AsteroidsManager.obj : error LNK2001: símbolo externo SDL_RenderCopyEx sin resolver
+GameCtrl.obj : error LNK2001: símbolo externo SDL_RenderCopyEx sin resolver
+Gun.obj : error LNK2001: símbolo externo SDL_RenderCopyEx sin resolver
+Health.obj : error LNK2001: símbolo externo SDL_RenderCopyEx sin resolver
+SDLUtils.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
+AsteroidsSystem.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
+FighterSystem.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
+AsteroidsManager.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
+Gun.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
+Game.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
+sdlutils_demo.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
+sdlutils_demo.obj : error LNK2001: símbolo externo SDL_GetKeyboardState sin resolver
+FighterSystem.obj : error LNK2001: símbolo externo SDL_GetKeyboardState sin resolver
+GameCtrl.obj : error LNK2001: símbolo externo SDL_GetKeyboardState sin resolver
+Gun.obj : error LNK2001: símbolo externo SDL_GetKeyboardState sin resolver
+State.obj : error LNK2001: símbolo externo SDL_GetKeyboardState sin resolver
+Game.obj : error LNK2001: símbolo externo SDL_GetKeyboardState sin resolver
+GameCtrl.obj : error LNK2019: símbolo externo Mix_PlayChannelTimed sin resolver al que se hace referencia en la función "public: int __cdecl SoundEffect::play(int,int)const " (?play@SoundEffect@@QEBAHHH@Z)
+Gun.obj : error LNK2001: símbolo externo Mix_PlayChannelTimed sin resolver
+BulletSystem.obj : error LNK2001: símbolo externo Mix_PlayChannelTimed sin resolver
+FighterSystem.obj : error LNK2001: símbolo externo Mix_PlayChannelTimed sin resolver
+Gun.obj : error LNK2019: símbolo externo SDL_GetScancodeFromKey sin resolver al que se hace referencia en la función "public: bool __cdecl InputHandler::isKeyDown(int)" (?isKeyDown@InputHandler@@QEAA_NH@Z)
+FighterSystem.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
+State.obj : error LNK2019: símbolo externo SDL_RenderCopy sin resolver al que se hace referencia en la función "public: void __cdecl Texture::render(struct SDL_Rect const &,struct SDL_Rect const &)" (?render@Texture@@QEAAXAEBUSDL_Rect@@0@Z)
+sdlutils_demo.obj : error LNK2001: símbolo externo SDL_RenderCopy sin resolver
+Game.obj : error LNK2019: símbolo externo SDL_PollEvent sin resolver al que se hace referencia en la función "public: void __cdecl Game::start(void)" (?start@Game@@QEAAXXZ)
+sdlutils_demo.obj : error LNK2001: símbolo externo SDL_PollEvent sin resolver
+Game.obj : error LNK2019: símbolo externo SDL_SetRenderDrawColor sin resolver al que se hace referencia en la función "public: void __cdecl SDLUtils::clearRenderer(struct SDL_Color)" (?clearRenderer@SDLUtils@@QEAAXUSDL_Color@@@Z)
+sdlutils_demo.obj : error LNK2001: símbolo externo SDL_SetRenderDrawColor sin resolver
+Game.obj : error LNK2019: símbolo externo SDL_RenderClear sin resolver al que se hace referencia en la función "public: void __cdecl SDLUtils::clearRenderer(struct SDL_Color)" (?clearRenderer@SDLUtils@@QEAAXUSDL_Color@@@Z)
+sdlutils_demo.obj : error LNK2001: símbolo externo SDL_RenderClear sin resolver
+Game.obj : error LNK2019: símbolo externo SDL_RenderPresent sin resolver al que se hace referencia en la función "public: void __cdecl SDLUtils::presentRenderer(void)" (?presentRenderer@SDLUtils@@QEAAXXZ)
+sdlutils_demo.obj : error LNK2001: símbolo externo SDL_RenderPresent sin resolver
+Game.obj : error LNK2019: símbolo externo SDL_Delay sin resolver al que se hace referencia en la función "public: void __cdecl Game::start(void)" (?start@Game@@QEAAXXZ)
+sdlutils_demo.obj : error LNK2001: símbolo externo SDL_Delay sin resolver
+sdlutils_demo.obj : error LNK2019: símbolo externo SDL_DestroyTexture sin resolver al que se hace referencia en la función "public: virtual __cdecl Texture::~Texture(void)" (??1Texture@@UEAA@XZ)
+SDLUtils.obj : error LNK2001: símbolo externo SDL_DestroyTexture sin resolver
+Texture.obj : error LNK2001: símbolo externo SDL_DestroyTexture sin resolver
+sdlutils_demo.obj : error LNK2019: símbolo externo Mix_PlayMusic sin resolver al que se hace referencia en la función "public: void __cdecl Music::play(int)const " (?play@Music@@QEBAXH@Z)
+sdlutils_demo.obj : error LNK2019: símbolo externo Mix_HaltMusic sin resolver al que se hace referencia en la función "public: static void __cdecl Music::haltMusic(void)" (?haltMusic@Music@@SAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo SDL_RWFromFile sin resolver al que se hace referencia en la función "public: __cdecl SoundEffect::SoundEffect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0SoundEffect@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SDLUtils.obj : error LNK2019: símbolo externo SDL_CreateWindow sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::initWindow(void)" (?initWindow@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo SDL_DestroyWindow sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::closeWindow(void)" (?closeWindow@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo SDL_ShowCursor sin resolver al que se hace referencia en la función "public: void __cdecl SDLUtils::hideCursor(void)" (?hideCursor@SDLUtils@@QEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo SDL_CreateRenderer sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::initWindow(void)" (?initWindow@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo SDL_DestroyRenderer sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::closeWindow(void)" (?closeWindow@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo SDL_Init sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::initWindow(void)" (?initWindow@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo SDL_Quit sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::closeWindow(void)" (?closeWindow@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo TTF_Init sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo TTF_OpenFont sin resolver al que se hace referencia en la función "public: __cdecl Font::Font(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (??0Font@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+SDLUtils.obj : error LNK2019: símbolo externo TTF_CloseFont sin resolver al que se hace referencia en la función "public: virtual __cdecl Font::~Font(void)" (??1Font@@UEAA@XZ)
+SDLUtils.obj : error LNK2019: símbolo externo TTF_Quit sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::closeSDLExtensions(void)" (?closeSDLExtensions@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo Mix_Init sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo Mix_Quit sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::closeSDLExtensions(void)" (?closeSDLExtensions@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo Mix_OpenAudio sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo Mix_AllocateChannels sin resolver al que se hace referencia en la función "public: static int __cdecl SoundEffect::setNumberofChannels(int)" (?setNumberofChannels@SoundEffect@@SAHH@Z)
+SDLUtils.obj : error LNK2019: símbolo externo Mix_LoadWAV_RW sin resolver al que se hace referencia en la función "public: __cdecl SoundEffect::SoundEffect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0SoundEffect@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SDLUtils.obj : error LNK2019: símbolo externo Mix_LoadMUS sin resolver al que se hace referencia en la función "public: __cdecl Music::Music(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Music@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SDLUtils.obj : error LNK2019: símbolo externo Mix_FreeChunk sin resolver al que se hace referencia en la función "public: virtual __cdecl SoundEffect::~SoundEffect(void)" (??1SoundEffect@@UEAA@XZ)
+SDLUtils.obj : error LNK2019: símbolo externo Mix_FreeMusic sin resolver al que se hace referencia en la función "public: virtual __cdecl Music::~Music(void)" (??1Music@@UEAA@XZ)
+SDLUtils.obj : error LNK2019: símbolo externo IMG_Init sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
+SDLUtils.obj : error LNK2019: símbolo externo IMG_Quit sin resolver al que se hace referencia en la función "private: void __cdecl SDLUtils::closeSDLExtensions(void)" (?closeSDLExtensions@SDLUtils@@AEAAXXZ)
+Texture.obj : error LNK2019: símbolo externo SDL_FreeSurface sin resolver al que se hace referencia en la función "public: __cdecl Texture::Texture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Texture.obj : error LNK2019: símbolo externo SDL_CreateTextureFromSurface sin resolver al que se hace referencia en la función "public: __cdecl Texture::Texture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Texture.obj : error LNK2019: símbolo externo IMG_Load sin resolver al que se hace referencia en la función "public: __cdecl Texture::Texture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Texture.obj : error LNK2019: símbolo externo TTF_RenderUTF8_Solid sin resolver al que se hace referencia en la función "public: struct SDL_Surface * __cdecl Font::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)const " (?renderText@Font@@QEBAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@@Z)
+Texture.obj : error LNK2019: símbolo externo TTF_RenderUTF8_Shaded sin resolver al que se hace referencia en la función "public: struct SDL_Surface * __cdecl Font::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color,struct SDL_Color)const " (?renderText@Font@@QEBAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@1@Z)
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2-2.0.7\lib\x86\SDL2.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2-2.0.7\lib\x86\SDL2main.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_mixer-2.0.2\lib\x86\SDL2_mixer.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_net-2.0.1\lib\x86\SDL2_net.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exe : fatal error LNK1120: 41 externos sin resolver
