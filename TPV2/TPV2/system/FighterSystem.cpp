@@ -1,6 +1,7 @@
 #include "GameCtrlSystem.h"
 #include "FighterSystem.h"
 #include "BulletSystem.h"
+#include "../ecs/Manager.h"
 #include "../components/deAcceleration.h"
 #include "../components/ShowAtOppositeSide.h"
 #include "../components/Gun.h"

@@ -1,5 +1,5 @@
 #include "GameCtrlSystem.h"
-
+#include "FighterSystem.h"
 void GameCtrlSystem::onFighterDeath() 
 {
 	auto entities = manager_->getEnteties();
@@ -19,7 +19,8 @@ void GameCtrlSystem::onFighterDeath()
 		}
 	}
 
-	state_.setState(state_.GAMEOVER);
+	setState(GAMEOVER);
+	//state_.setState(state_.GAMEOVER);
 }
 
 void GameCtrlSystem::onAsteroidsExtinction()
@@ -32,17 +33,40 @@ void GameCtrlSystem::onAsteroidsExtinction()
 		}
 	}
 
-	state_.setState(state_.GAMEOVER);
+	setState(GAMEOVER);
+	//state_.setState(state_.GAMEOVER);
 }
 
 void GameCtrlSystem::init()/////////////////////////////////////////////INICIALIZAR EL RESTO//////////////////////////////////////////////////////
 {
-	state_.setState(state_.NEWGAME);
+	setState(NEWGAME);
+	//state_.setState(state_.NEWGAME);
 }
 
 void GameCtrlSystem::update()
 {
-	manager_->refresh();
-	int i = manager_->getEnteties().size();
-	std::cout << i;
+	/*manager_->refresh();
+	int i = manager_->getEnteties().size();*/
+	//std::cout << i;
+
+	if (state_ != RUNNING) {
+		if (ih().isKeyDown(SDL_SCANCODE_SPACE)) {
+			switch (state_) {
+			case NEWGAME:
+				state_ = RUNNING;
+				manager_->getSystem<FighterSystem>()->init();
+				break;
+			case PAUSED:
+				state_ = RUNNING;
+				//manager_->getSystem<FighterSystem>()->resetNave();
+				manager_->getSystem<FighterSystem>()->init();
+				break;
+			case GAMEOVER:
+				state_ = NEWGAME;
+				break;
+			default:
+				break;
+			}
+		}
+	}
 }
