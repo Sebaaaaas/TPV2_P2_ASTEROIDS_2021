@@ -1,10 +1,12 @@
 #pragma once
 
-#include "../ecs/System.h"
+//#include "../ecs/System.h"
 #include "../utils/Vector2D.h"
 #include "../ecs/Entity.h"
 #include "../sdlutils/SDLUtils.h"
 #include "GameCtrlSystem.h"
+#include "FighterSystem.h"
+#include "../components/DisableOnExit.h"
 
 class BulletSystem : public System {
 public:

@@ -59,12 +59,12 @@ struct Nave;
 #define _HDLRS_LIST_ Nave
 
 // systems
-class GamerCtrlSystem;
+class GameCtrlSystem;
 class FighterSystem;
 class RenderSystem;
 class BulletSystem;
 
-#define _SYS_LIST_ GamerCtrlSystem,\
+#define _SYS_LIST_ GameCtrlSystem,\
 	FighterSystem,\
 	RenderSystem,\
 	BulletSystem

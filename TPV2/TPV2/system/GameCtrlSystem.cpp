@@ -42,5 +42,12 @@ void GameCtrlSystem::init()/////////////////////////////////////////////INICIALI
 
 void GameCtrlSystem::update()
 {
-	
+	manager_->refresh();
+	auto entities = manager_->getEnteties();
+	std::cout << entities.size();
+	//recorremos todas las entidades
+	for (int i = 0; i < entities.size(); i++) {
+		entities[i]->update();
+	}
+
 }

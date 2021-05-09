@@ -34,6 +34,7 @@
 #include "../ecs/Manager.h"
 #include "../utils/Vector2D.h"
 
+
 Game::Game() {
 	mngr_.reset(new Manager());
 }
@@ -49,32 +50,32 @@ void Game::init() {
 	Manager *gameMngr_ = new Manager();
 	
 
-	gameCtrlSyst_ = new GameCtrlSystem();
+	/*gameCtrlSyst_ = new GameCtrlSystem();
 	gameCtrlSyst_->setMngr(gameMngr_);
-	gameCtrlSyst_->init();
+	gameCtrlSyst_->init();*/
 
+	gameCtrlSyst_ = new GameCtrlSystem();
+	gameCtrlSyst_ = gameMngr_->addSystem<GameCtrlSystem>();
+	/*gameCtrlSyst_->init();*/
 
-	fighterCtrlSyst_ = new FighterSystem();
+	/*fighterCtrlSyst_ = new FighterSystem();
 	fighterCtrlSyst_->setMngr(gameMngr_);
-	fighterCtrlSyst_->init();
+	fighterCtrlSyst_->init();*/
+	fighterCtrlSyst_ = new FighterSystem();
+	fighterCtrlSyst_ = gameMngr_->addSystem<FighterSystem>();
+	/*fighterCtrlSyst_->init();*/
 
+	/*bulletSyst_ = new BulletSystem();
+	bulletSyst_->setMngr(gameMngr_);*/
 	bulletSyst_ = new BulletSystem();
-	bulletSyst_->setMngr(gameMngr_);
+	bulletSyst_ = gameMngr_->addSystem<BulletSystem>();
 
-	renderSyst_ = new RenderSystem();
+	/*renderSyst_ = new RenderSystem();
 	renderSyst_->setMngr(gameMngr_);
-	renderSyst_->init();
-
-	/*gameCtrlSys_ = gameMngr_->a
-	gameCtrlSys_ = new GameCtrlSystem();
-	gameCtrlSys_->setMngr(gameMngr_);*/
-
-	/*auto* gm = mngr_->addEntity();
-	gm->addComponent<Health>();
-	gm->addComponent<AsteroidsManager>();
-	gm->addComponent<GameCtrl>();
-	gm->addComponent<CollisionManager>();
-	gm->addComponent<State>();*/
+	renderSyst_->init();*/
+	renderSyst_ = new RenderSystem();
+	renderSyst_ = gameMngr_->addSystem<RenderSystem>();
+	/*renderSyst_->init();*/
 
 
 }
@@ -103,6 +104,7 @@ void Game::start() {
 		//mngr_->update();
 		//mngr_->refresh();
 		//std::cout << mngr_->getEnteties().size();//<<<<<<<<<<<<<<MIRAR POR CONSOLA LA CANTIDAD DE ENTIDADES EN ESCENA
+
 		sdlutils().clearRenderer();
 		/*mngr_->render();*/
 		renderSyst_->update();

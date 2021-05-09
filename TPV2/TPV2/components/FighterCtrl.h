@@ -38,12 +38,12 @@ public:
 
 			if (ih().isKeyDown(SDL_SCANCODE_LEFT)) {
 				rot -= 5.0f;
-				tr_->setRot(rot);
 			}
 			else if (ih().isKeyDown(SDL_SCANCODE_RIGHT)) {
-				rot += 5.0f;
-				tr_->setRot(rot);
+				rot += 5.0f;				
 			}
+
+			tr_->setRot(rot);
 
 
 			if (ih().isKeyDown(SDL_SCANCODE_UP)) {
@@ -64,11 +64,11 @@ public:
 				else if (newVel.getY() < -speedLimit_) {
 					newVel.setY(-speedLimit_);
 				}
-				//std::cout << newVel;
 
 				vel = newVel;
 
 			}
+
 		}
 	}
 

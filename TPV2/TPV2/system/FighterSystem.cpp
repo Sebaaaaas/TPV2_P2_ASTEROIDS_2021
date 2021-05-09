@@ -27,15 +27,16 @@ void FighterSystem::init()
 	manager_->setHandler<Nave>(caza);
 
 	entity_ = caza;
+
 }
 
 void FighterSystem::update()
 {
-	entity_->update();
 	if (ih().keyDownEvent()) {
 
-		if (ih().isKeyDown(SDLK_s) && sdlutils().currRealTime() > lastTimeFired + timeToFire) {
-		    BSystem->shoot(entity_->getComponent<Transform>()->getPos(), entity_->getComponent<Transform>()->getVel(), entity_->getComponent<Transform>()->getW(), entity_->getComponent<Transform>()->getH());
+		if (ih().isKeyDown(SDLK_s) && sdlutils().currRealTime() > lastTimeFired + timeToFire) {		    
+			manager_->getSystem<BulletSystem>()->shoot(entity_->getComponent<Transform>()->getPos(), entity_->getComponent<Transform>()->getVel(), entity_->getComponent<Transform>()->getW(), entity_->getComponent<Transform>()->getH());
+			lastTimeFired = sdlutils().currRealTime();
 		}
 	}
 	

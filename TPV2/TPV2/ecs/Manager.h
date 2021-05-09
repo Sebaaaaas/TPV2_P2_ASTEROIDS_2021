@@ -8,6 +8,8 @@
 
 #include "ecs.h"
 #include "Entity.h"
+#include "System.h"
+
 
 class Manager {
 public:
@@ -40,6 +42,20 @@ public:
 		return entities_;
 	}
 
+	template<typename T, typename ...Ts>
+	inline T* addSystem(Ts &&...args) {
+		T* s = new T(std::forward<Ts>(args)...);
+		sys_[ecs::sysIdx<T>] = std::unique_ptr<System>(s);
+		s->setMngr(this);
+		s->init();
+		return s;
+	}
+
+	template<typename T>
+	inline T* getSystem() {
+		return static_cast<T*>(sys_[ecs::sysIdx<T>].get());
+	}
+
 	void update();
 	void render();
 	void refresh();
@@ -48,6 +64,8 @@ private:
 
 	std::vector<Entity*> entities_;
 	std::array<Entity*, ecs::maxHdlr> hdlrs_;
+	std::array<std::unique_ptr<System>, ecs::maxSystem> sys_;
+
 
 };
 

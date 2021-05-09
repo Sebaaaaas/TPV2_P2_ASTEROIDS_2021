@@ -1,7 +1,6 @@
 #pragma once
 
-#include "../ecs/System.h"
-
+//#include "../ecs/System.h"
 #include "../ecs/Entity.h"///////////////////////////////////////////////////////NO DEBERIA ESTAR AQUI?///////////////////////////////////////////////////////
 
 class FighterSystem : public System {
@@ -24,7 +23,6 @@ public:
 private:
 
 	Entity *entity_;
-	BulletSystem *BSystem;
 	float timeToFire = 250.0;
 	float lastTimeFired = 0.0;
 };
