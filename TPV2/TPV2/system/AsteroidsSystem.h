@@ -17,4 +17,5 @@ public:
 	void update() override;
 private:
 	std::size_t numOfAsteroids_;
+	int lastTime_;
 };

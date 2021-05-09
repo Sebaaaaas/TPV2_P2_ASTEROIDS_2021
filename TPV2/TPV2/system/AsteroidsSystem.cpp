@@ -70,7 +70,7 @@ void AsteroidsSystem::onCollisionWithBullet(Entity* a, Entity* b)
 	if (nGen - 1 > 0) {
 		for (int i = 0; i < 2; i++) {
 			auto eg = a->getMngr()->addEntity();
-			auto eTR = a->getComponent<Transform>();
+			/*auto eTR = a->getComponent<Transform>();
 			Vector2D ePos = eTR->getPos();
 			Vector2D eVel = eTR->getVel();
 			int r = sdlutils().rand().nextInt(0, 360);
@@ -85,7 +85,8 @@ void AsteroidsSystem::onCollisionWithBullet(Entity* a, Entity* b)
 			FramedImage imagenPad = *a->getComponent<FramedImage>();
 			if (a->getComponent<Follow>()) {
 				eg->addComponent<Follow>();
-			}
+			}*/
+			FramedImage imagenPad = *a->getComponent<FramedImage>();
 			eg->addComponent<FramedImage>(imagenPad);
 			eg->addComponent<ShowAtOppositeSide>();
 			eg->setGroup<Asteroids>(true);
@@ -104,6 +105,30 @@ void AsteroidsSystem::onCollisionWithBullet(Entity* a, Entity* b)
 void AsteroidsSystem::update()
 {
 	if (manager_->getSystem<GameCtrlSystem>()->getState() != manager_->getSystem<GameCtrlSystem>()->RUNNING) {
-		
+
+		int ents = manager_->getEnteties().size();
+		for (int i = 0; i < ents; i++) {
+			if (manager_->getEnteties()[i]->hasGroup<Asteroids>()) {
+				auto* e = manager_->getEnteties()[i];
+				e->update();
+
+				if (e->getComponent<Transform>()->getPos().getX() < 0 || e->getComponent<Transform>()->getPos().getX() + e->getComponent<Transform>()->getW() > sdlutils().width()
+					|| e->getComponent<Transform>()->getPos().getY() < 0 || e->getComponent<Transform>()->getPos().getY() + e->getComponent<Transform>()->getH() > sdlutils().height()) {
+
+					e->setActive(false);
+				}
+			}
+		}
+
+		if (sdlutils().currRealTime() > lastTime_ + 5000) {
+
+
+			
+
+
+			lastTime_ = sdlutils().currRealTime();/*
+			if (entity_->getComponent<Health>()->vivo())*/
+			addAsteroids(1);
+		}
 	}
 }

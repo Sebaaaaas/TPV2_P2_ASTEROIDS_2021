@@ -1,6 +1,16 @@
-﻿  Game.cpp
+﻿  AsteroidsSystem.cpp
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversión de 'Uint32' a 'float'; posible pérdida de datos
 C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
 C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversión de 'Uint32' a 'float'; posible pérdida de datos
-C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(31,49): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(31,25): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(31,17): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(34,26): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(39,50): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(39,25): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(39,17): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(42,25): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(48,112): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(123,33): warning C4018: '>': no coinciden signed/unsigned
   TPV2.vcxproj -> C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exe
