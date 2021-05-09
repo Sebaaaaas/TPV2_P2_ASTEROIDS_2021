@@ -24,6 +24,7 @@ private:
 	System* renderSyst_;
 	System* bulletSyst_;
 	System* asteroidsSyst_;
+	System* collisionSyst_;
 	/*GameCtrlSystem* gameCtrlSyst_;
 	FighterSystem* fighterCtrlSyst_;
 	RenderSystem* renderSyst_;

@@ -9,7 +9,8 @@
 
 void FighterSystem::onCollisionWithAsteroid(Entity* a)
 {
-
+	resetNave();
+	manager_->getSystem<GameCtrlSystem>()->onFighterDeath();
 }
 
 void FighterSystem::init()
@@ -20,11 +21,8 @@ void FighterSystem::init()
 		Vector2D(), 30.0f, 30.0f, 0.0f);
 	caza->addComponent<Image>(&sdlutils().images().at("fighter"));
 	caza->addComponent<deAcceleration>();
-	//caza->addComponent<KeyBoardCtrl>();
 	caza->addComponent<FighterCtrl>();
-	//caza->addComponent<Bounce>();
 	caza->addComponent<ShowAtOppositeSide>();
-	/*caza->addComponent<Gun>();*/
 	manager_->setHandler<Nave>(caza);
 
 	entity_ = caza;

@@ -132,6 +132,9 @@
     <ClCompile Include="components\AsteroidsManager.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
+    <ClCompile Include="system\CollisionSystem.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="json\JSON.h">
@@ -279,6 +282,9 @@
       <Filter>Header Files\system</Filter>
     </ClInclude>
     <ClInclude Include="system\AsteroidsSystem.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CollisionSystem.h">
       <Filter>Header Files\system</Filter>
     </ClInclude>
   </ItemGroup>

@@ -70,7 +70,7 @@ void AsteroidsSystem::onCollisionWithBullet(Entity* a, Entity* b)
 	if (nGen - 1 > 0) {
 		for (int i = 0; i < 2; i++) {
 			auto eg = a->getMngr()->addEntity();
-			/*auto eTR = a->getComponent<Transform>();
+			auto eTR = a->getComponent<Transform>();
 			Vector2D ePos = eTR->getPos();
 			Vector2D eVel = eTR->getVel();
 			int r = sdlutils().rand().nextInt(0, 360);
@@ -85,8 +85,8 @@ void AsteroidsSystem::onCollisionWithBullet(Entity* a, Entity* b)
 			FramedImage imagenPad = *a->getComponent<FramedImage>();
 			if (a->getComponent<Follow>()) {
 				eg->addComponent<Follow>();
-			}*/
-			FramedImage imagenPad = *a->getComponent<FramedImage>();
+			}
+			/*FramedImage imagenPad = *a->getComponent<FramedImage>();*/
 			eg->addComponent<FramedImage>(imagenPad);
 			eg->addComponent<ShowAtOppositeSide>();
 			eg->setGroup<Asteroids>(true);

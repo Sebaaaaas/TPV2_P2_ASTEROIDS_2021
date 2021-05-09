@@ -1,6 +1,7 @@
 #include "GameCtrlSystem.h"
 #include "FighterSystem.h"
 #include"AsteroidsSystem.h"
+
 void GameCtrlSystem::onFighterDeath() 
 {
 	auto entities = manager_->getEnteties();

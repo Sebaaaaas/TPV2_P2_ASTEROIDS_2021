@@ -39,6 +39,7 @@
     <ClCompile Include="sdlutils\Texture.cpp" />
     <ClCompile Include="system\AsteroidsSystem.cpp" />
     <ClCompile Include="system\BulletSystem.cpp" />
+    <ClCompile Include="system\CollisionSystem.cpp" />
     <ClCompile Include="system\FighterSystem.cpp" />
     <ClCompile Include="system\GameCtrlSystem.cpp" />
     <ClCompile Include="system\RenderSystem.cpp" />
@@ -89,6 +90,7 @@
     <ClInclude Include="sdlutils\VirtualTimer.h" />
     <ClInclude Include="system\AsteroidsSystem.h" />
     <ClInclude Include="system\BulletSystem.h" />
+    <ClInclude Include="system\CollisionSystem.h" />
     <ClInclude Include="system\FighterSystem.h" />
     <ClInclude Include="system\GameCtrlSystem.h" />
     <ClInclude Include="system\RenderSystem.h" />

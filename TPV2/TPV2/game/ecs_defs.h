@@ -64,10 +64,12 @@ class FighterSystem;
 class RenderSystem;
 class BulletSystem;
 class AsteroidsSystem;
+class CollisionSystem;
 
 #define _SYS_LIST_ GameCtrlSystem,\
 	FighterSystem,\
 	RenderSystem,\
 	BulletSystem, \
-	AsteroidsSystem
+	AsteroidsSystem,\
+	CollisionSystem
 
