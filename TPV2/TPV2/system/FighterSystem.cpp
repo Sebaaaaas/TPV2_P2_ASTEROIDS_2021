@@ -32,6 +32,8 @@ void FighterSystem::init()
 
 void FighterSystem::update()
 {
+	entity_->update();
+
 	if (ih().keyDownEvent()) {
 
 		if (ih().isKeyDown(SDLK_s) && sdlutils().currRealTime() > lastTimeFired + timeToFire) {		    

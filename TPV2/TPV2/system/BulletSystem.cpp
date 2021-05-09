@@ -18,7 +18,6 @@ void BulletSystem::shoot(Vector2D pos, Vector2D vel, double width, double height
 	e->addComponent<Transform>(bPos, bVel, 5.0, 20.0, nave->getComponent<Transform>()->getRot());
 	e->setGroup<Balas>(true);
 	e->addComponent<Image>(&sdlutils().images().at("fire"));
-	e->addComponent<DisableOnExit>();
 	
 }
 
@@ -28,5 +27,19 @@ void BulletSystem::onCollisionWithAsteroid(Entity* b, Entity* a)
 
 void BulletSystem::update()
 {
-	
+	int ents = manager_->getEnteties().size();
+	for (int i = 0; i < ents; i++) {
+		if (manager_->getEnteties()[i]->hasGroup<Balas>()) {
+			auto* e = manager_->getEnteties()[i];
+			e->update();
+
+			if (e->getComponent<Transform>()->getPos().getX() < 0 || e->getComponent<Transform>()->getPos().getX() + e->getComponent<Transform>()->getW() > sdlutils().width()
+				|| e->getComponent<Transform>()->getPos().getY() < 0 || e->getComponent<Transform>()->getPos().getY() + e->getComponent<Transform>()->getH() > sdlutils().height()) {
+
+				e->setActive(false);
+			}
+		}		
+	}
+
+
 }

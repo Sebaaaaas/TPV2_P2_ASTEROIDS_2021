@@ -6,7 +6,7 @@
 #include "../sdlutils/SDLUtils.h"
 #include "GameCtrlSystem.h"
 #include "FighterSystem.h"
-#include "../components/DisableOnExit.h"
+
 
 class BulletSystem : public System {
 public:

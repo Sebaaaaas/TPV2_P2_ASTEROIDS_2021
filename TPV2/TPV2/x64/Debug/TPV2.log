@@ -63,10 +63,23 @@ C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\co
   Texture.cpp
   BulletSystem.cpp
 C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(11,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(12,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(36,32): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(18): message : see reference to function template instantiation 'T *Entity::addComponent<Transform,Vector2D&,Vector2D&,double,double,float>(Vector2D &,Vector2D &,double &&,double &&,float &&)' being compiled
+          with
+          [
+              T=Transform
+          ]
   FighterSystem.cpp
 C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
 C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\FighterSystem.cpp(39,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
   Generating Code...
   Compiling...
   GameCtrlSystem.cpp
