@@ -1,6 +1,13 @@
 // This file is part of the course TPV2@UCM - Samir Genaim
 
 #pragma once
+#include <algorithm>
+#include <array>
+#include <bitset>
+#include <vector>
+#include <iostream>
+#include "Component.h"
+#include "ecs.h"
 
 class Manager;
 struct Message;

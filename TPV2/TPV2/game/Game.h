@@ -17,11 +17,13 @@ public:
 	void init();
 	void start();
 private:
+	
 	std::unique_ptr<Manager> mngr_;
 	System* gameCtrlSyst_;
 	System* fighterCtrlSyst_;
 	System* renderSyst_;
 	System* bulletSyst_;
+	System* asteroidsSyst_;
 	/*GameCtrlSystem* gameCtrlSyst_;
 	FighterSystem* fighterCtrlSyst_;
 	RenderSystem* renderSyst_;

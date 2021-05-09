@@ -47,7 +47,7 @@ void AsteroidsManager::onCollision(Entity* e)
 			}
 			eg->addComponent<FramedImage>(imagenPad);
 			eg->addComponent<ShowAtOppositeSide>();
-			eg->setGroup<Asteroids>(true);	
+			eg->setGroup<Asteroids>(true);
 
 			numAsteroides++;
 		}		
@@ -69,7 +69,7 @@ void AsteroidsManager::addAsteroid(int n)
 	int ry = rp.nextInt(-100, 100);
 
 	for (int i = 0; i < n; i++) {
-		auto e = entity_->getMngr()->addEntity(); //?¿?¿?¿¿
+		auto e = entity_->getMngr()->addEntity(); 
 		if (grand == 1) {
 			x = r.nextInt(-25.0f / 2, sdlutils().width() + 25.0f / 2);
 			grand = 1 + (rand() % 2);

@@ -1,4 +1,4 @@
-#include "GameCtrlSystem.h"
+//#include "GameCtrlSystem.h"
 #include "FighterSystem.h"
 #include "BulletSystem.h"
 #include "../ecs/Manager.h"

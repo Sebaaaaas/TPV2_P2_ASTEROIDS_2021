@@ -1,5 +1,6 @@
 #include "GameCtrlSystem.h"
 #include "FighterSystem.h"
+#include"AsteroidsSystem.h"
 void GameCtrlSystem::onFighterDeath() 
 {
 	auto entities = manager_->getEnteties();
@@ -40,6 +41,7 @@ void GameCtrlSystem::onAsteroidsExtinction()
 void GameCtrlSystem::init()/////////////////////////////////////////////INICIALIZAR EL RESTO//////////////////////////////////////////////////////
 {
 	setState(NEWGAME);
+	manager_->addSystem<AsteroidsSystem>()->addAsteroids(10);
 	//state_.setState(state_.NEWGAME);
 }
 

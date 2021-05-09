@@ -25,6 +25,7 @@
 #include "../system/FighterSystem.h"
 #include "../system/RenderSystem.h"
 #include "../system/BulletSystem.h"
+#include "../system/AsteroidsSystem.h"
 
 #include "../ecs/ecs.h"
 #include "../ecs/Entity.h"
@@ -73,7 +74,7 @@ void Game::init() {
 	/*renderSyst_ = new RenderSystem();
 	renderSyst_ = gameMngr_->addSystem<RenderSystem>();*/
 
-
+	asteroidsSyst_ = mngr_->addSystem<AsteroidsSystem>();
 }
 
 void Game::start() {
@@ -99,6 +100,7 @@ void Game::start() {
 		gameCtrlSyst_->update();
 		fighterCtrlSyst_->update();
 		bulletSyst_->update();
+		asteroidsSyst_->update();
 		
 		sdlutils().clearRenderer();
 
