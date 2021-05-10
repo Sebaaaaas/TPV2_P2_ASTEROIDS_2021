@@ -42,7 +42,7 @@ void CollisionManager::update() {///////////////////////////////////////////////
 				entity_->getComponent<AsteroidsManager>()->setNumAsteroids(0);
 
 				//destruye las balas y asteroides del juego ///////////////////////////////////////////////////////QUITAR?///////////////////////////////////////////////////////
-				for (int j = 0; j < n; j++) {
+				/*for (int j = 0; j < n; j++) {
 					if (ents[j]->hasGroup<Balas>() || ents[j]->hasGroup<Asteroids>()) {
 						ents[j]->setActive(false);						
 					}
@@ -62,7 +62,7 @@ void CollisionManager::update() {///////////////////////////////////////////////
 							entity_->getComponent<AsteroidsManager>()->addAsteroid(10);
 						}
 					}
-				}				
+				}				*/
 
 			}
 

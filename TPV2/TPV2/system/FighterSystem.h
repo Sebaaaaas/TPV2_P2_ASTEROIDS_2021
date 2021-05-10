@@ -25,4 +25,5 @@ private:
 	float timeToFire = 250.0;
 	float lastTimeFired = 0.0;
 	Transform *naveTrans;
+	Health* healthCmp;
 };

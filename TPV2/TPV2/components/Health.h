@@ -19,15 +19,16 @@ public:
 	virtual ~Health() {
 	}
 
-	/*void init() override {
-		tr_ = entity_->getComponent<Transform>();
-		assert(tr_ != nullptr);
+	void init() override {
+		/*tr_ = entity_->getComponent<Transform>();
+		assert(tr_ != nullptr);*/
+		colocaVidas();
 	}
 	void render() override {
-		SDL_Rect dest = build_sdlrect(tr_->getPos(), tr_->getW(), tr_->getH());
+		/*SDL_Rect dest = build_sdlrect(tr_->getPos(), tr_->getW(), tr_->getH());
 		tex_->render(dest, tr_->getRot());
-		
-	}*/
+		*/
+	}
 	void colocaVidas();
 	void quitaVida();
 	void reseteaVidas(){health = startingHealth;}

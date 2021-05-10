@@ -5,6 +5,7 @@
 void GameCtrlSystem::onFighterDeath() 
 {
 	auto entities = manager_->getEnteties();
+	bool sigueVivo;
 	
 	//recorremos todas las entidades
 	for (int i = 0; i < entities.size(); i++) {
@@ -15,13 +16,17 @@ void GameCtrlSystem::onFighterDeath()
 		}
 		else if (entities[i]->hasComponent<Health>()) {
 			entities[i]->getComponent<Health>()->quitaVida();
+			if (entities[i]->getComponent<Health>()->devuelveVidas() > 0) { sigueVivo = true; }
+			else { sigueVivo = false; }
 			entities[i]->getComponent<Health>()->colocaVidas();
 			
-			entities[i]->getComponent<FighterCtrl>()->reset();
+			/*entities[i]->getComponent<FighterCtrl>()->reset();*/
 		}
 	}
 
-	setState(PAUSED);
+	if(sigueVivo){ setState(PAUSED); }
+	else{ setState(GAMEOVER); }
+	
 	//state_.setState(state_.GAMEOVER);
 }
 
@@ -60,7 +65,7 @@ void GameCtrlSystem::update()
 				break;
 			case NEWGAME:
 				state_ = RUNNING;
-				manager_->getSystem<FighterSystem>()->resetNave();
+				manager_->getSystem<FighterSystem>()->init();
 				manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
 				break;
 			case PAUSED:
