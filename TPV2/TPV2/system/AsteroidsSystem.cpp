@@ -64,7 +64,6 @@ void AsteroidsSystem::addAsteroids(int n)
 
 void AsteroidsSystem::onCollisionWithBullet(Entity* a, Entity* b)
 {
-	//a->setActive(false);
 	//Desactivamos el aseroide y creamos dos hijitos
 	int nGen = a->getComponent<Generations>()->getNumGen();
 	if (nGen - 1 > 0) {

@@ -1,193 +1,39 @@
-﻿  AsteroidsManager.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(18,32): warning C4018: '>': signed/unsigned mismatch
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(36,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(37,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(40,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(40,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(41,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(74,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(74,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(74,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(77,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(82,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(82,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(82,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(85,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\AsteroidsManager.cpp(91,112): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  CollisionsManager.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\CollisionsManager.cpp(28,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\CollisionsManager.cpp(54,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\CollisionsManager.cpp(54,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  FramedImage.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-  GameCtrl.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-  Gun.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\Gun.cpp(9,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-  Health.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\Health.cpp(28,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\Health.cpp(40,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(36,32): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
-          with
-          [
-              _Ty=double
-          ]
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\Health.cpp(30): message : see reference to function template instantiation 'T *Entity::addComponent<Transform,Vector2D&,Vector2D,double,double,double>(Vector2D &,Vector2D &&,double &&,double &&,double &&)' being compiled
-          with
-          [
-              T=Transform
-          ]
-  Entity.cpp
-  Manager.cpp
-  State.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\State.cpp(70,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\State.cpp(70,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Game.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-  somplejson_demo.cpp
-  JSON.cpp
-  JSONValue.cpp
-  main.cpp
-  sdlutils_demo.cpp
-  SDLUtils.cpp
-  SoundEffect.cpp
-  Texture.cpp
-  AsteroidsSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FramedImage.h(48,43): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(31,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(31,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(31,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(34,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(39,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(39,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(39,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(42,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(48,112): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(77,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(78,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(81,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(81,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(82,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(109,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\AsteroidsSystem.cpp(123,33): warning C4018: '>': signed/unsigned mismatch
-  BulletSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(11,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(12,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(32,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(36,32): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
-          with
-          [
-              _Ty=double
-          ]
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(18): message : see reference to function template instantiation 'T *Entity::addComponent<Transform,Vector2D&,Vector2D&,double,double,float>(Vector2D &,Vector2D &,double &&,double &&,float &&)' being compiled
-          with
-          [
-              T=Transform
-          ]
-  Generating Code...
-  Compiling...
-  CollisionSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-  FighterSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\FighterSystem.cpp(45,44): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-  GameCtrlSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-  RenderSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-  Collisions.cpp
-  Vector2D.cpp
-  Generating Code...
-AsteroidsSystem.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "public: __cdecl std::_Vector_const_iterator<class std::_Vector_val<struct std::_Simple_types<class Component *> > >::_Vector_const_iterator<class std::_Vector_val<struct std::_Simple_types<class Component *> > >(class Component * *,struct std::_Container_base12 const *)" (??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PEAVComponent@@@std@@@std@@@std@@QEAA@PEAPEAVComponent@@PEBU_Container_base12@1@@Z)
-BulletSystem.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-FighterSystem.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-AsteroidsManager.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-GameCtrl.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-Gun.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-Health.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
-SDLUtils.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-AsteroidsSystem.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-FighterSystem.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-AsteroidsManager.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-Gun.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-Game.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_GetTicks
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-FighterSystem.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-GameCtrlSystem.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-GameCtrl.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-Gun.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-State.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-Game.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
-GameCtrl.obj : error LNK2019: unresolved external symbol Mix_PlayChannelTimed referenced in function "public: int __cdecl SoundEffect::play(int,int)const " (?play@SoundEffect@@QEBAHHH@Z)
-Gun.obj : error LNK2001: unresolved external symbol Mix_PlayChannelTimed
-BulletSystem.obj : error LNK2001: unresolved external symbol Mix_PlayChannelTimed
-FighterSystem.obj : error LNK2001: unresolved external symbol Mix_PlayChannelTimed
-Gun.obj : error LNK2019: unresolved external symbol SDL_GetScancodeFromKey referenced in function "public: bool __cdecl InputHandler::isKeyDown(int)" (?isKeyDown@InputHandler@@QEAA_NH@Z)
-FighterSystem.obj : error LNK2001: unresolved external symbol SDL_GetScancodeFromKey
-State.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl Texture::render(struct SDL_Rect const &,struct SDL_Rect const &)" (?render@Texture@@QEAAXAEBUSDL_Rect@@0@Z)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
-Game.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Game::start(void)" (?start@Game@@QEAAXXZ)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_PollEvent
-Game.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl SDLUtils::clearRenderer(struct SDL_Color)" (?clearRenderer@SDLUtils@@QEAAXUSDL_Color@@@Z)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
-Game.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl SDLUtils::clearRenderer(struct SDL_Color)" (?clearRenderer@SDLUtils@@QEAAXUSDL_Color@@@Z)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_RenderClear
-Game.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl SDLUtils::presentRenderer(void)" (?presentRenderer@SDLUtils@@QEAAXXZ)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
-Game.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: void __cdecl Game::start(void)" (?start@Game@@QEAAXXZ)
-sdlutils_demo.obj : error LNK2001: unresolved external symbol SDL_Delay
-sdlutils_demo.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: virtual __cdecl Texture::~Texture(void)" (??1Texture@@UEAA@XZ)
-SDLUtils.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
-Texture.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
-sdlutils_demo.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function "public: void __cdecl Music::play(int)const " (?play@Music@@QEBAXH@Z)
-sdlutils_demo.obj : error LNK2019: unresolved external symbol Mix_HaltMusic referenced in function "public: static void __cdecl Music::haltMusic(void)" (?haltMusic@Music@@SAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "public: __cdecl SoundEffect::SoundEffect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0SoundEffect@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "private: void __cdecl SDLUtils::initWindow(void)" (?initWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "private: void __cdecl SDLUtils::closeWindow(void)" (?closeWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_ShowCursor referenced in function "public: void __cdecl SDLUtils::hideCursor(void)" (?hideCursor@SDLUtils@@QEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "private: void __cdecl SDLUtils::initWindow(void)" (?initWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "private: void __cdecl SDLUtils::closeWindow(void)" (?closeWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "private: void __cdecl SDLUtils::initWindow(void)" (?initWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "private: void __cdecl SDLUtils::closeWindow(void)" (?closeWindow@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "public: __cdecl Font::Font(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (??0Font@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol TTF_CloseFont referenced in function "public: virtual __cdecl Font::~Font(void)" (??1Font@@UEAA@XZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol TTF_Quit referenced in function "private: void __cdecl SDLUtils::closeSDLExtensions(void)" (?closeSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_Init referenced in function "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_Quit referenced in function "private: void __cdecl SDLUtils::closeSDLExtensions(void)" (?closeSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_AllocateChannels referenced in function "public: static int __cdecl SoundEffect::setNumberofChannels(int)" (?setNumberofChannels@SoundEffect@@SAHH@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_LoadWAV_RW referenced in function "public: __cdecl SoundEffect::SoundEffect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0SoundEffect@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "public: __cdecl Music::Music(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Music@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_FreeChunk referenced in function "public: virtual __cdecl SoundEffect::~SoundEffect(void)" (??1SoundEffect@@UEAA@XZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol Mix_FreeMusic referenced in function "public: virtual __cdecl Music::~Music(void)" (??1Music@@UEAA@XZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol IMG_Init referenced in function "private: void __cdecl SDLUtils::initSDLExtensions(void)" (?initSDLExtensions@SDLUtils@@AEAAXXZ)
-SDLUtils.obj : error LNK2019: unresolved external symbol IMG_Quit referenced in function "private: void __cdecl SDLUtils::closeSDLExtensions(void)" (?closeSDLExtensions@SDLUtils@@AEAAXXZ)
-Texture.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: __cdecl Texture::Texture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Texture.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: __cdecl Texture::Texture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Texture.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: __cdecl Texture::Texture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Texture.obj : error LNK2019: unresolved external symbol TTF_RenderUTF8_Solid referenced in function "public: struct SDL_Surface * __cdecl Font::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)const " (?renderText@Font@@QEBAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@@Z)
-Texture.obj : error LNK2019: unresolved external symbol TTF_RenderUTF8_Shaded referenced in function "public: struct SDL_Surface * __cdecl Font::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color,struct SDL_Color)const " (?renderText@Font@@QEBAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@1@Z)
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2-2.0.7\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2-2.0.7\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_mixer-2.0.2\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\SDL2_net-2.0.1\lib\x86\SDL2_net.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exe : fatal error LNK1120: 41 unresolved externals
+﻿  RenderSystem.cpp
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(7,19): error C2027: use of undefined type 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(13): message : see declaration of 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(8,25): error C3536: 'n': cannot be used before it is initialized
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(8,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(9,11): error C2027: use of undefined type 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(13): message : see declaration of 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(11,24): error C2027: use of undefined type 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(13): message : see declaration of 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(11,52): error C2059: syntax error: ')'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(13,5): error C3536: 'state_': cannot be used before it is initialized
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(13,5): error C2027: use of undefined type 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(13): message : see declaration of 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(13,5): error C2059: syntax error: ')'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(13,64): error C2143: syntax error: missing ';' before '{'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(16,6): error C2027: use of undefined type 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(13): message : see declaration of 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(16,6): error C2059: syntax error: ')'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(16,66): error C2143: syntax error: missing ';' before '{'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(17,14): error C3861: 'sdlutils': identifier not found
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(17,12): error C2530: 't': references must be initialized
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(18,5): error C3536: 't': cannot be used before it is initialized
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(18,14): error C3861: 'sdlutils': identifier not found
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(19,6): error C3861: 'sdlutils': identifier not found
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(23,6): error C2027: use of undefined type 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(13): message : see declaration of 'Manager'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(23,6): error C2059: syntax error: ')'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(23,65): error C2143: syntax error: missing ';' before '{'
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(24,14): error C3861: 'sdlutils': identifier not found
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(24,12): error C2530: 't': references must be initialized
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(25,5): error C3536: 't': cannot be used before it is initialized
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(25,14): error C3861: 'sdlutils': identifier not found
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(26,5): error C3861: 'sdlutils': identifier not found
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(28,3): error C2181: illegal else without matching if
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(29,14): error C3861: 'sdlutils': identifier not found
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(29,12): error C2530: 't': references must be initialized
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(30,5): error C3536: 't': cannot be used before it is initialized
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(30,14): error C3861: 'sdlutils': identifier not found
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\RenderSystem.cpp(31,5): error C3861: 'sdlutils': identifier not found

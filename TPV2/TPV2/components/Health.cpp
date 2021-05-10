@@ -16,7 +16,6 @@ void Health::colocaVidas()
 
 void Health::quitaVida()
 {
-	std::cout << "otra vez";
 	health--;
 	auto& ents = entity_->getMngr()->getEnteties();
 	int n = ents.size();

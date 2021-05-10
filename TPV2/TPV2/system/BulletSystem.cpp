@@ -23,7 +23,7 @@ void BulletSystem::shoot(Vector2D pos, Vector2D vel, double width, double height
 
 void BulletSystem::onCollisionWithAsteroid(Entity* b, Entity* a)
 {
-	std::cout << "colision weon";
+	b->setActive(false);
 }
 
 void BulletSystem::update()

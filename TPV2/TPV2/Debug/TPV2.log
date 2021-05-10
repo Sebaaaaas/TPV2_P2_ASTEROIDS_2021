@@ -1,5 +1,15 @@
-﻿  GameCtrlSystem.cpp
+﻿  BulletSystem.cpp
 C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\GameCtrlSystem.cpp(11,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\GameCtrlSystem.cpp(37,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(11,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(12,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\ecs\Entity.h(36,32): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\BulletSystem.cpp(18): message : see reference to function template instantiation 'T *Entity::addComponent<Transform,Vector2D&,Vector2D&,double,double,float>(Vector2D &,Vector2D &,double &&,double &&,float &&)' being compiled
+          with
+          [
+              T=Transform
+          ]
   TPV2.vcxproj -> C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exe
