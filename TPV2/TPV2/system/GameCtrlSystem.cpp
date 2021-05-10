@@ -41,8 +41,9 @@ void GameCtrlSystem::onAsteroidsExtinction()
 
 void GameCtrlSystem::init()/////////////////////////////////////////////INICIALIZAR EL RESTO//////////////////////////////////////////////////////
 {
-	setState(NEWGAME);
+	setState(RUNNING);
 	manager_->addSystem<AsteroidsSystem>()->addAsteroids(10);
+	
 	//state_.setState(state_.NEWGAME);
 }
 
@@ -51,17 +52,20 @@ void GameCtrlSystem::update()
 	/*manager_->refresh();
 	int i = manager_->getEnteties().size();*/
 	//std::cout << i;
-
-	if (state_ != RUNNING) {
-		if (ih().isKeyDown(SDL_SCANCODE_SPACE)) {
+	/*if (state_ != RUNNING) {*/
+ 		if (ih().isKeyDown(SDL_SCANCODE_SPACE)) {
 			switch (state_) {
-			case NEWGAME:
-				state_ = RUNNING;
-				manager_->getSystem<FighterSystem>()->resetNave();
+			case RUNNING:
+				state_ = PAUSED;
 				break;
+				/*case NEWGAME:
+					state_ = RUNNING;
+					manager_->getSystem<FighterSystem>()->resetNave();
+					manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
+					break;*/
 			case PAUSED:
 				state_ = RUNNING;
-				manager_->getSystem<FighterSystem>()->resetNave();
+				//manager_->getSystem<FighterSystem>()->resetNave();
 				//manager_->getSystem<FighterSystem>()->init();
 				break;
 			case GAMEOVER:
@@ -71,6 +75,6 @@ void GameCtrlSystem::update()
 				break;
 			}
 		}
-	}
-	else state_ = NEWGAME;
+	/*}*/
+		
 }

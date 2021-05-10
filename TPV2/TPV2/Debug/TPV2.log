@@ -1,5 +1,6 @@
-﻿  CollisionSystem.cpp
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\CollisionSystem.cpp(13,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\CollisionSystem.cpp(28,22): warning C4018: '<': signed/unsigned mismatch
-  TPV2.vcxproj -> C:\Users\sebas\Desktop\ASIGN\TercerAño\TPV2\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exe
+﻿  FighterSystem.cpp
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(28,29): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\ShowAtOppositeSide.h(36,30): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\FighterSystem.cpp(44,44): warning C4244: '=': conversión de 'Uint32' a 'float'; posible pérdida de datos
+  TPV2.vcxproj -> C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exe

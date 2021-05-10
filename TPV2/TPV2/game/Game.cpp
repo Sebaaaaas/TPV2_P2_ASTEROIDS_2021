@@ -100,7 +100,11 @@ void Game::start() {
 
 		mngr_->refresh();
 
+		
+
 		gameCtrlSyst_->update();
+
+		
 		fighterCtrlSyst_->update();
 		bulletSyst_->update();
 		asteroidsSyst_->update();

@@ -104,7 +104,7 @@ void AsteroidsSystem::onCollisionWithBullet(Entity* a, Entity* b)
 
 void AsteroidsSystem::update()
 {
-	if (manager_->getSystem<GameCtrlSystem>()->getState() != manager_->getSystem<GameCtrlSystem>()->RUNNING) {
+	if (manager_->getSystem<GameCtrlSystem>()->getState() == manager_->getSystem<GameCtrlSystem>()->RUNNING) {
 
 		int ents = manager_->getEnteties().size();
 		for (int i = 0; i < ents; i++) {

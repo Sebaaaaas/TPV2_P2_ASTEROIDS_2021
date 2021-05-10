@@ -1,6 +1,8 @@
 //#include "GameCtrlSystem.h"
 #include "FighterSystem.h"
 #include "BulletSystem.h"
+#include "AsteroidsSystem.h"
+#include "GameCtrlSystem.h"
 #include "../ecs/Manager.h"
 #include "../components/deAcceleration.h"
 #include "../components/ShowAtOppositeSide.h"
@@ -11,6 +13,7 @@ void FighterSystem::onCollisionWithAsteroid(Entity* a)
 {
 	resetNave();
 	manager_->getSystem<GameCtrlSystem>()->onFighterDeath();
+	manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
 }
 
 void FighterSystem::init()
@@ -31,15 +34,18 @@ void FighterSystem::init()
 
 void FighterSystem::update()
 {
-	entity_->update();
+	if (manager_->getSystem<GameCtrlSystem>()->getState() == manager_->getSystem<GameCtrlSystem>()->RUNNING) {
+		entity_->update();
 
-	if (ih().keyDownEvent()) {
+		if (ih().keyDownEvent()) {
 
-		if (ih().isKeyDown(SDLK_s) && sdlutils().currRealTime() > lastTimeFired + timeToFire) {		    
-			manager_->getSystem<BulletSystem>()->shoot(entity_->getComponent<Transform>()->getPos(), entity_->getComponent<Transform>()->getVel(), entity_->getComponent<Transform>()->getW(), entity_->getComponent<Transform>()->getH());
-			lastTimeFired = sdlutils().currRealTime();
+			if (ih().isKeyDown(SDLK_s) && sdlutils().currRealTime() > lastTimeFired + timeToFire) {
+				manager_->getSystem<BulletSystem>()->shoot(entity_->getComponent<Transform>()->getPos(), entity_->getComponent<Transform>()->getVel(), entity_->getComponent<Transform>()->getW(), entity_->getComponent<Transform>()->getH());
+				lastTimeFired = sdlutils().currRealTime();
+			}
 		}
 	}
+	
 	
 }
 
