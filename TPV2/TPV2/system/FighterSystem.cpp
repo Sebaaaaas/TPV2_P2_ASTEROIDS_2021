@@ -14,6 +14,7 @@ void FighterSystem::onCollisionWithAsteroid(Entity* a)
 	resetNave();
 	manager_->getSystem<GameCtrlSystem>()->onFighterDeath();
 	manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
+	
 }
 
 void FighterSystem::init()
@@ -54,4 +55,5 @@ void FighterSystem::resetNave()
 	naveTrans = entity_->getComponent<Transform>();
 	naveTrans->setVel(Vector2D());
 	naveTrans->setPos(Vector2D(sdlutils().width() / 2.0f, sdlutils().height() / 2.0f));
+	naveTrans->setRot(0.0f);
 }

@@ -28,18 +28,20 @@ void BulletSystem::onCollisionWithAsteroid(Entity* b, Entity* a)
 
 void BulletSystem::update()
 {
-	int ents = manager_->getEnteties().size();
-	for (int i = 0; i < ents; i++) {
-		if (manager_->getEnteties()[i]->hasGroup<Balas>()) {
-			auto* e = manager_->getEnteties()[i];
-			e->update();
+	if (manager_->getSystem<GameCtrlSystem>()->getState() == manager_->getSystem<GameCtrlSystem>()->RUNNING) {
+		int ents = manager_->getEnteties().size();
+		for (int i = 0; i < ents; i++) {
+			if (manager_->getEnteties()[i]->hasGroup<Balas>()) {
+				auto* e = manager_->getEnteties()[i];
+				e->update();
 
-			if (e->getComponent<Transform>()->getPos().getX() < 0 || e->getComponent<Transform>()->getPos().getX() + e->getComponent<Transform>()->getW() > sdlutils().width()
-				|| e->getComponent<Transform>()->getPos().getY() < 0 || e->getComponent<Transform>()->getPos().getY() + e->getComponent<Transform>()->getH() > sdlutils().height()) {
+				if (e->getComponent<Transform>()->getPos().getX() < 0 || e->getComponent<Transform>()->getPos().getX() + e->getComponent<Transform>()->getW() > sdlutils().width()
+					|| e->getComponent<Transform>()->getPos().getY() < 0 || e->getComponent<Transform>()->getPos().getY() + e->getComponent<Transform>()->getH() > sdlutils().height()) {
 
-				e->setActive(false);
+					e->setActive(false);
+				}
 			}
-		}		
+		}
 	}
 
 

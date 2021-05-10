@@ -21,7 +21,7 @@ void GameCtrlSystem::onFighterDeath()
 		}
 	}
 
-	setState(GAMEOVER);
+	setState(PAUSED);
 	//state_.setState(state_.GAMEOVER);
 }
 
@@ -58,11 +58,11 @@ void GameCtrlSystem::update()
 			case RUNNING:
 				state_ = PAUSED;
 				break;
-				/*case NEWGAME:
-					state_ = RUNNING;
-					manager_->getSystem<FighterSystem>()->resetNave();
-					manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
-					break;*/
+			case NEWGAME:
+				state_ = RUNNING;
+				manager_->getSystem<FighterSystem>()->resetNave();
+				manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
+				break;
 			case PAUSED:
 				state_ = RUNNING;
 				//manager_->getSystem<FighterSystem>()->resetNave();
