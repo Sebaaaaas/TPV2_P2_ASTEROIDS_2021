@@ -17,7 +17,7 @@ void BulletSystem::shoot(Vector2D pos, Vector2D vel, double width, double height
 
 	e->addComponent<Transform>(bPos, bVel, 5.0, 20.0, nave->getComponent<Transform>()->getRot());
 	e->setGroup<Balas>(true);
-	e->addComponent<Image>(&sdlutils().images().at("fire"));
+	//e->addComponent<Image>(&sdlutils().images().at("fire"));
 	
 }
 
@@ -45,4 +45,21 @@ void BulletSystem::update()
 	}
 
 
+}
+
+void BulletSystem::render()
+{
+	Transform* tr_Bal = nullptr;
+	int ents = manager_->getEnteties().size();
+	for (int i = 0; i < ents; i++) {
+		if (manager_->getEnteties()[i]->hasGroup<Balas>()) {
+			auto* e = manager_->getEnteties()[i];
+			tr_Bal = e->getComponent<Transform>();
+			SDL_Rect dest = build_sdlrect(tr_Bal->getPos(), tr_Bal->getW(), tr_Bal->getH());
+			tex_Bal->render(src_Bal,//dibujar solo el rectangulo de la text
+				dest, tr_Bal->getRot());
+		}
+		
+	}
+	
 }

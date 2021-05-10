@@ -13,6 +13,7 @@ void FighterSystem::onCollisionWithAsteroid(Entity* a)
 {
 	resetNave();
 	manager_->getSystem<GameCtrlSystem>()->onFighterDeath();
+	manager_->getSystem<AsteroidsSystem>()->setAsteroids(0);
 	manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
 	
 }
@@ -47,6 +48,9 @@ void FighterSystem::update()
 			}
 		}
 	}
+
+	int nAst = manager_->getSystem<AsteroidsSystem>()->getAsteroids();
+	std::cout << nAst << "\n";
 	
 	
 }

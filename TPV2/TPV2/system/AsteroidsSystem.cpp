@@ -15,7 +15,7 @@
 
 void AsteroidsSystem::addAsteroids(int n)
 {
-	numOfAsteroids_ += n;
+	sumaAsteroids(n);
 
 	auto& r = sdlutils().rand();
 	int grand = 1 + (rand() % 2);
@@ -51,9 +51,11 @@ void AsteroidsSystem::addAsteroids(int n)
 		e->addComponent<Transform>(pos, bVel, 15.0f * nGeneration, 15.0f * nGeneration, 0.0f);
 
 		if (sdlutils().rand().nextInt(0, 10) >= 3) { //tipo a
+			tex_ = &sdlutils().images().at("asteroid");
 			e->addComponent<FramedImage>(&sdlutils().images().at("asteroid"), 5, 6, 50.0f);
 		}
 		else {  //tipo b
+			tex_ = &sdlutils().images().at("asteroid_gold");
 			e->addComponent<FramedImage>(&sdlutils().images().at("asteroid_gold"), 5, 6, 50.0f);
 			e->addComponent<Follow>();
 		}
@@ -85,20 +87,17 @@ void AsteroidsSystem::onCollisionWithBullet(Entity* a, Entity* b)
 			if (a->getComponent<Follow>()) {
 				eg->addComponent<Follow>();
 			}
-			/*FramedImage imagenPad = *a->getComponent<FramedImage>();*/
+			//FramedImage imagenPad = *a->getComponent<FramedImage>();
 			eg->addComponent<FramedImage>(imagenPad);
 			eg->addComponent<ShowAtOppositeSide>();
 			eg->setGroup<Asteroids>(true);
-
-			numOfAsteroids_++;
+			sumaAsteroids(1);
 		}
 	}
 	a->setActive(false);
-	numOfAsteroids_--;
+	restaAsteroids(1);
 
-	if (numOfAsteroids_ == 0) {
-		manager_->getSystem<GameCtrlSystem>()->setState(manager_->getSystem<GameCtrlSystem>()->GAMEOVER);
-	}
+	
 }
 
 void AsteroidsSystem::update()
@@ -121,13 +120,58 @@ void AsteroidsSystem::update()
 
 		if (sdlutils().currRealTime() > lastTime_ + 5000) {
 
+			lastTime_ = sdlutils().currRealTime();
+			if (numOfAsteroids_ < numMaxAsteroids_ && !maxAste) {
+				addAsteroids(1);
+			}
+			else maxAste = true; 
 
-			
+		}
 
-
-			lastTime_ = sdlutils().currRealTime();/*
-			if (entity_->getComponent<Health>()->vivo())*/
-			addAsteroids(1);
+		if (numOfAsteroids_ <= 0) {
+			manager_->getSystem<GameCtrlSystem>()->setState(manager_->getSystem<GameCtrlSystem>()->GAMEOVER);
+			maxAste = false;
 		}
 	}
+
+	//para los frames
+	if (sdlutils().currRealTime() > lastTimeFrame + timeFrame) {
+		lastTimeFrame = sdlutils().currRealTime();
+		c_++;
+		if (c_ >= col_) {
+			r_++;
+			c_ = 0;
+			if (r_ >= row_) {
+				r_ = 0;
+				c_ = 0;
+			}
+		}
+		/*auto e = entity_->getMngr()->addEntity();*/
+		cogerFrame(c_, r_);
+		/*e ->addComponent<Image>(&sdlutils().images().at("asteroid"), 5, 6, r_, c_);
+		e->setGroup<Asteroids>(true);*/
+	}
+}
+
+void AsteroidsSystem::render()
+{
+	Transform* tr_Ast = nullptr;
+	int ents = manager_->getEnteties().size();
+	for (int i = 0; i < ents; i++) {
+		if (manager_->getEnteties()[i]->hasGroup<Balas>()) {
+			auto* e = manager_->getEnteties()[i];
+			tr_Ast = e->getComponent<Transform>();
+			SDL_Rect dest = build_sdlrect(tr_Ast->getPos(), tr_Ast->getW(), tr_Ast->getH());
+			tex_->render(src_,//dibujar solo el rectangulo de la text
+				dest, tr_Ast->getRot());
+		}
+
+	}
+}
+
+void AsteroidsSystem::cogerFrame(int c, int r)
+{
+	auto w = tex_->width() / col_;
+	auto h = tex_->height() / row_;
+	src_ = { w * c, h * r, w, h };
 }

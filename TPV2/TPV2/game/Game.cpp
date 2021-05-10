@@ -55,29 +55,20 @@ void Game::init() {
 
 	/*Manager *gameMngr_ = new Manager();*/
 	
-	gameCtrlSyst_ = mngr_->addSystem<GameCtrlSystem>();
-
 	
-	/*gameCtrlSyst_ = new GameCtrlSystem();
-	gameCtrlSyst_ = gameMngr_->addSystem<GameCtrlSystem>();*/
 	
 
 	fighterCtrlSyst_ = mngr_->addSystem<FighterSystem>();
-	/*fighterCtrlSyst_ = new FighterSystem();
-	fighterCtrlSyst_ = gameMngr_->addSystem<FighterSystem>();
-	*/
 
 	bulletSyst_ = mngr_->addSystem<BulletSystem>();
-	/*bulletSyst_ = new BulletSystem();
-	bulletSyst_ = gameMngr_->addSystem<BulletSystem>();*/
 
 	collisionSyst_ = mngr_->addSystem<CollisionSystem>();
 
 	renderSyst_ = mngr_->addSystem<RenderSystem>();
-	/*renderSyst_ = new RenderSystem();
-	renderSyst_ = gameMngr_->addSystem<RenderSystem>();*/
 
 	asteroidsSyst_ = mngr_->addSystem<AsteroidsSystem>();
+
+	gameCtrlSyst_ = mngr_->addSystem<GameCtrlSystem>();
 }
 
 void Game::start() {

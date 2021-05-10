@@ -21,4 +21,10 @@ public:
 	// - si el juego está parado no hacer nada.
 	// - mover las balas y desactivar las que se salen de la ventana
 	void update() override;
+
+	void render();
+private:
+	
+	Texture* tex_Bal = &sdlutils().images().at("fire");
+	SDL_Rect src_Bal = { 0,0,tex_Bal->width(), tex_Bal->height() };
 };

@@ -1,5 +1,7 @@
 #include "RenderSystem.h"
 #include "GameCtrlSystem.h"
+#include "BulletSystem.h"
+#include "AsteroidsSystem.h"
 
 void RenderSystem::update()
 {
@@ -31,4 +33,16 @@ void RenderSystem::update()
 		}
 	}
 
+	manager_->getSystem<BulletSystem>()->render();
+	//manager_->getSystem<AsteroidsSystem>()->render();
+
 }
+
+//void RenderSystem::dibuja(Transform* tr_, Texture* tex_, SDL_Rect src_)
+//{
+//	SDL_Rect dest = build_sdlrect(tr_->getPos(), tr_->getW(), tr_->getH());
+//	tex_->render(src_,//dibujar solo el rectangulo de la text
+//		dest, tr_->getRot());
+//}
+
+

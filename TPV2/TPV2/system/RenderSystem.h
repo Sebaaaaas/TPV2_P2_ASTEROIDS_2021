@@ -13,5 +13,13 @@ public:
 	// este código en los sistemas correspondientes en lugar de tener un sólo
 	// sistema para rendering
 	void update() override;
+	/*void dibuja(Transform* tr, Texture* tex, SDL_Rect src);*/
 
+private:
+	/*Transform* tr_Ast;
+	Transform* tr_Bal;
+	Texture* tex_Ast;
+	Texture* tex_Bal;
+	SDL_Rect src_Ast;
+	SDL_Rect src_Bal;*/
 };

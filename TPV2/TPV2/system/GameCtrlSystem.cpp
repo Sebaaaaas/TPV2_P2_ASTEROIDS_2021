@@ -49,7 +49,7 @@ void GameCtrlSystem::onAsteroidsExtinction()
 void GameCtrlSystem::init()
 {
 	setState(RUNNING);
-	manager_->addSystem<AsteroidsSystem>()->addAsteroids(10);
+	manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
 }
 
 void GameCtrlSystem::update()
