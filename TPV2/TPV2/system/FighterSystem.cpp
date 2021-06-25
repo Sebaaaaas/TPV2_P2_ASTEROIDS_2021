@@ -9,7 +9,7 @@
 #include "../components/Gun.h"
 #include "../components/Health.h"
 
-void FighterSystem::onCollisionWithAsteroid(Entity* a)
+void FighterSystem::onCollisionWithAsteroid(Entity* a)//usamos la a??
 {
 	resetNave();
 	manager_->getSystem<GameCtrlSystem>()->onFighterDeath();
@@ -49,8 +49,8 @@ void FighterSystem::update()
 		}
 	}
 
-	int nAst = manager_->getSystem<AsteroidsSystem>()->getAsteroids();
-	std::cout << nAst << "\n";
+	//int nAst = manager_->getSystem<AsteroidsSystem>()->getAsteroids();-->?
+	//std::cout << nAst << "\n";
 	
 	
 }
@@ -60,7 +60,9 @@ void FighterSystem::resetNave()
 
 	naveTrans = entity_->getComponent<Transform>();
 	healthCmp = entity_->getComponent<Health>();
-
+	/*if (manager_->getSystem<GameCtrlSystem>()->getState() == manager_->getSystem<GameCtrlSystem>()->NEWGAME) {
+		healthCmp->reseteaVidas();
+	}*/
 	naveTrans->setVel(Vector2D());
 	naveTrans->setPos(Vector2D(sdlutils().width() / 2.0f, sdlutils().height() / 2.0f));
 	naveTrans->setRot(0.0f);

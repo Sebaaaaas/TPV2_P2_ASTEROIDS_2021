@@ -1,1 +1,5 @@
-﻿
+﻿  GameCtrlSystem.cpp
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\components\FighterCtrl.h(17,1): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\GameCtrlSystem.cpp(11,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\TPV2\system\GameCtrlSystem.cpp(53,20): warning C4018: '<': no coinciden signed/unsigned
+  TPV2.vcxproj -> C:\Users\Aida\Documents\Carrera\PRACTICA2TPV\TPV2_P2_ASTEROIDS_2021\TPV2\bin\TPV2Debug.exe

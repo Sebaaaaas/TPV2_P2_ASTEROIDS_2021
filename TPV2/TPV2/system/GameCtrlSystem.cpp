@@ -17,21 +17,34 @@ void GameCtrlSystem::onFighterDeath()
 		else if (entities[i]->hasComponent<Health>()) {
 			entities[i]->getComponent<Health>()->quitaVida();
 			
-			if (entities[i]->getComponent<Health>()->devuelveVidas() > 0) { sigueVivo = true; }
+			if (entities[i]->getComponent<Health>()->devuelveVidas() > 0) { sigueVivo = true; 
+			entities[i]->getComponent<Health>()->colocaVidas();
+			}
 			else {
 				sigueVivo = false;
-				entities[i]->getComponent<Health>()->reseteaVidas();
+				if (state_ == NEWGAME) {
+					entities[i]->getComponent<Health>()->reseteaVidas();
+					entities[i]->getComponent<Health>()->colocaVidas();
+					//std::cout << entities[i]->getComponent<Health>()->devuelveVidas();
+					manager_->getSystem<AsteroidsSystem>()->setAsteroids(0);
+					manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
+					sigueVivo = true;
+				}
+				//entities[i]->getComponent<Health>()->reseteaVidas();
 
 			}
-			entities[i]->getComponent<Health>()->colocaVidas();
+			
 
 		}
 	}
 
-	if(sigueVivo){ setState(PAUSED); }
+	if(sigueVivo){ 
+		setState(PAUSED); }
 	else{ setState(GAMEOVER); }
 
 }
+
+
 
 void GameCtrlSystem::onAsteroidsExtinction()
 {
@@ -48,27 +61,34 @@ void GameCtrlSystem::onAsteroidsExtinction()
 
 void GameCtrlSystem::init()
 {
-	setState(RUNNING);
+	setState(PAUSED);
 	manager_->getSystem<AsteroidsSystem>()->addAsteroids(10);
 }
 
 void GameCtrlSystem::update()
-{
+{	
+	
  		if (ih().isKeyDown(SDL_SCANCODE_SPACE)) {
 			switch (state_) {
 			case RUNNING:
 				state_ = PAUSED;
+				std::cout << "PAUSED" << std::endl;
 				break;
 			case NEWGAME:
 				state_ = RUNNING;
+				std::cout << "RUNNING" << std::endl;
 				break;
 			case PAUSED:
 				state_ = RUNNING;
+				std::cout << "RUNNING" << std::endl;
 				break;
 			case GAMEOVER:
 				state_ = NEWGAME;
+				onFighterDeath();
+				std::cout << "NEWGAME" << std::endl;
 				break;
 			default:
+				std::cout << "OTRO" << std::endl;
 				break;
 			}
 		}
